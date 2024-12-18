@@ -2,72 +2,97 @@ import os
 import json
 import random
 from datetime import datetime
-from PIL import Image
-from PIL.ExifTags import TAGS
+from PIL import Image  # We need Pillow to get image sizes
 
-# Function to extract the numerical part of the filename and treat it as the timestamp
-def extract_number_from_filename(filename):
-    try:
-        # Extract the number from the filename, assuming format 'snapshot-N-0.jpg'
-        base_name = os.path.basename(filename)
-        number = int(base_name.split('-')[1])  # Extract the number after 'snapshot-'
-        return number  # Treat this number as the timestamp
-    except Exception as e:
-        print(f"Error extracting number from {filename}: {e}")
-        return 0  # Default to 0 if error occurs
+def get_image_timestamp(image_path):
+    # This function uses the number in the filename as the timestamp
+    filename = os.path.basename(image_path)
+    base_name = os.path.splitext(filename)[0]
+    number_str = base_name.split('-')[1]  # Extract timestamp from the filename
+    return int(number_str)
 
-# Function to generate a random x and y position between 0 and 600
-def generate_random_position():
-    return {"x": random.randint(100, 1100), "y": random.randint(100, 700)}
+def get_image_sizes(image_path):
+    # Open the image to get its size (width, height)
+    with Image.open(image_path) as img:
+        width, height = img.size
+    return width, height
 
-# Function to organize the data
-def create_json_from_images(base_dir):
-    artworks = []
+def generate_json_from_structure(root_dir):
+    data = []
     
-    for root, dirs, files in os.walk(base_dir):
-        if not dirs and root.startswith(base_dir):  
-            art_id = os.path.basename(root)
-            images = []
-            timestamps = []
-            positions = []
-
-            valid_files = [f for f in files if f.lower().endswith(('.jpg', '.jpeg', '.png')) and f != '.DS_Store']
-            sorted_files = sorted(valid_files, key=extract_number_from_filename)
-
-            random_position = generate_random_position()
-
-            for file in sorted_files:
-                image_path = os.path.join(root, file)
-                timestamp = extract_number_from_filename(file)  # Use the number in the filename as the timestamp
-                images.append(image_path)
-                timestamps.append(timestamp)  # Use the extracted number as the timestamp
-                positions.append(random_position)  # Use the same random position for all images in the series
-
-            artworks.append({
-                "id": art_id,
-                "images": images,
-                "timestamps": timestamps,
-                "positions": positions
+    # Process directories in the root directory
+    for root, dirs, files in os.walk(root_dir):
+        # Only process directories with image files
+        image_files = [f for f in sorted(files) if f.endswith('.jpg') and f != '.DS_Store']
+        
+        if not image_files:
+            continue
+        
+        # Sort files by timestamp extracted from the filename
+        image_files = sorted(image_files, key=lambda f: get_image_timestamp(os.path.join(root, f)))
+        
+        # Initialize series object
+        series = {
+            "id": os.path.basename(root),
+            "artworks": []
+        }
+        
+        last_position = None
+        last_size = None
+        
+        # Process each image file
+        for file in image_files:
+            image_path = os.path.join(root, file)
+            timestamp = get_image_timestamp(image_path)
+            
+            # Get the image sizes
+            img_width, img_height = get_image_sizes(image_path)
+            
+            # Calculate width and height as original image size divided by 10
+            width = img_width // 10
+            height = img_height // 10
+            
+            # Position: Random for first image, then inherit for others
+            if last_position is None:
+                position = {"x": random.randint(-600, 600), "y": random.randint(-400, 400)}
+                last_position = position
+            else:
+                position = None  # Subsequent images have no position
+            
+            # Size: Random for first image, then inherit for others
+            if last_size is None:
+                size = {"width": width, "height": height}
+                last_size = size
+            else:
+                size = None  # Subsequent images have no size
+            
+            # Add artwork info
+            series["artworks"].append({
+                "image": image_path,
+                "timestamp": timestamp,
+                "position": position,
+                "size": size  # Use dimension instead of size
             })
+        
+        # Add the series to the data list
+        data.append(series)
     
-    return artworks
-
-# Main function to write the output to a JSON file
-def write_json_to_file(data, filename):
+    # Handle special case: Place "overview" series first
+    overview_series = [series for series in data if series["id"] == "overview"]
+    if overview_series:
+        data.remove(overview_series[0])
+        data.insert(0, overview_series[0])  # Insert overview at the start
+    
+    # Get the current date for the filename
+    current_time = datetime.now().strftime("%Y-%m-%d-%H%M")
+    filename = f"data-{current_time}.json"
+    
+    # Write the data to a JSON file
     with open(filename, 'w') as f:
         json.dump(data, f, indent=4)
+    
+    print(f"JSON file generated: {filename}")
 
-# Generate JSON filename based on current date
-def generate_filename():
-    current_time = datetime.now().strftime("%Y-%m-%d-%H%M")
-    return f"data-{current_time}.json"
-
-# Main script logic
-if __name__ == "__main__":
-    base_directory = 'data'  # Adjust the base directory path as needed
-    json_filename = generate_filename()
-
-    artwork_data = create_json_from_images(base_directory)
-    write_json_to_file(artwork_data, json_filename)
-
-    print(f"JSON file '{json_filename}' generated successfully!")
+# Set the root directory of your images
+root_directory = "data"  # Adjust the path as necessary
+generate_json_from_structure(root_directory)

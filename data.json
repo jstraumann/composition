@@ -1,58 +1,1271 @@
 [
     {
-        "id": "art1",
-        "images": [
-            "data/series-1/snapshot-1-0.jpg",
-            "data/series-1/snapshot-4-0.jpg",
-            "data/series-1/snapshot-8-0.jpg"
-        ],
-        "timestamps": [0, 10, 20, 40, 50, 60],
-        "positions": [
-            {"x": 0, "y": 0},
-            {"x": 300, "y": 100},
-            {"x": 100, "y": 100},
-            {"x": 100, "y": 100},
-            {"x": 100, "y": 100},
-            {"x": 100, "y": 100}
+        "id": "overview",
+        "artworks": [
+            {
+                "image": "data/overview/overview-1-0.jpg",
+                "timestamp": 1,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 1200,
+                    "height": 830
+                }
+            },
+            {
+                "image": "data/overview/overview-3-0.jpg",
+                "timestamp": 3,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/overview/overview-4-0.jpg",
+                "timestamp": 4,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/overview/overview-5-0.jpg",
+                "timestamp": 5,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/overview/overview-6-0.jpg",
+                "timestamp": 6,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/overview/overview-7-0.jpg",
+                "timestamp": 7,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/overview/overview-8-0.jpg",
+                "timestamp": 8,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/overview/overview-9-0.jpg",
+                "timestamp": 9,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/overview/overview-11-0.jpg",
+                "timestamp": 11,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/overview/overview-13-0.jpg",
+                "timestamp": 13,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/overview/overview-14-0.jpg",
+                "timestamp": 14,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/overview/overview-15-0.jpg",
+                "timestamp": 15,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/overview/overview-17-0.jpg",
+                "timestamp": 17,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/overview/overview-18-0.jpg",
+                "timestamp": 18,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/overview/overview-19-0.jpg",
+                "timestamp": 19,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/overview/overview-20-0.jpg",
+                "timestamp": 20,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/overview/overview-21-0.jpg",
+                "timestamp": 21,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/overview/overview-22-0.jpg",
+                "timestamp": 22,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/overview/overview-23-0.jpg",
+                "timestamp": 23,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/overview/overview-24-0.jpg",
+                "timestamp": 24,
+                "position": null,
+                "size": null
+            }
         ]
-    }, 
+    },
     {
-        "id": "art2",
-        "images": [
-            "images/artwork_02/01.jpg",
-            "images/artwork_02/02.jpg",
-            "images/artwork_02/03.jpg",
-            "images/artwork_02/04.jpg",
-            "images/artwork_02/05.jpg",
-            "images/artwork_02/06.jpg"
-        ],
-        "timestamps": [0, 10, 20, 40, 50, 60],
-        "positions": [
-            {"x": 300, "y": 100},
-            {"x": 100, "y": 100},
-            {"x": 300, "y": 100},
-            {"x": 300, "y": 100},
-            {"x": 300, "y": 100},
-            {"x": 300, "y": 100}
+        "id": "series-10",
+        "artworks": [
+            {
+                "image": "data/series-10/snapshot-1-0.jpg",
+                "timestamp": 1,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 74,
+                    "height": 120
+                }
+            },
+            {
+                "image": "data/series-10/snapshot-4-0.jpg",
+                "timestamp": 4,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-10/snapshot-8-0.jpg",
+                "timestamp": 8,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-10/snapshot-11-0.jpg",
+                "timestamp": 11,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-10/snapshot-13-0.jpg",
+                "timestamp": 13,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-10/snapshot-14-0.jpg",
+                "timestamp": 14,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-10/snapshot-15-0.jpg",
+                "timestamp": 15,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-10/snapshot-17-0.jpg",
+                "timestamp": 17,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-10/snapshot-18-0.jpg",
+                "timestamp": 18,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-10/snapshot-19-0.jpg",
+                "timestamp": 19,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-10/snapshot-20-0.jpg",
+                "timestamp": 20,
+                "position": null,
+                "size": null
+            }
         ]
-    },    {
-        "id": "art2",
-        "images": [
-            "images/artwork_03/01.jpg",
-            "images/artwork_03/02.jpg",
-            "images/artwork_03/03.jpg",
-            "images/artwork_03/04.jpg",
-            "images/artwork_03/05.jpg",
-            "images/artwork_03/06.jpg"
-        ],
-        "timestamps": [0, 10, 20, 50, 55, 60],
-        "positions": [
-            {"x": 300, "y": 400},
-            {"x": 300, "y": 400},
-            {"x": 300, "y": 400},
-            {"x": 300, "y": 400},
-            {"x": 300, "y": 400},
-            {"x": 300, "y": 400}
+    },
+    {
+        "id": "series-11",
+        "artworks": [
+            {
+                "image": "data/series-11/snapshot-1-0.jpg",
+                "timestamp": 1,
+                "position": {
+                    "x": 100,
+                    "y": 0
+                },
+                "size": {
+                    "width": 120,
+                    "height": 74
+                }
+            },
+            {
+                "image": "data/series-11/snapshot-4-0.jpg",
+                "timestamp": 4,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-11/snapshot-6-0.jpg",
+                "timestamp": 6,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-11/snapshot-11-0.jpg",
+                "timestamp": 11,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-11/snapshot-13-0.jpg",
+                "timestamp": 13,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-11/snapshot-15-0.jpg",
+                "timestamp": 15,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-11/snapshot-17-0.jpg",
+                "timestamp": 17,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-11/snapshot-18-0.jpg",
+                "timestamp": 18,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-11/snapshot-19-0.jpg",
+                "timestamp": 19,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-11/snapshot-20-0.jpg",
+                "timestamp": 20,
+                "position": null,
+                "size": null
+            }
+        ]
+    },
+    {
+        "id": "series-3",
+        "artworks": [
+            {
+                "image": "data/series-3/snapshot-1-0.jpg",
+                "timestamp": 1,
+                "position": {
+                    "x": -300,
+                    "y": 0
+                },
+                "size": {
+                    "width": 120,
+                    "height": 90
+                }
+            },
+            {
+                "image": "data/series-3/snapshot-4-0.jpg",
+                "timestamp": 4,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-3/snapshot-8-0.jpg",
+                "timestamp": 8,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-3/snapshot-11-0.jpg",
+                "timestamp": 11,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-3/snapshot-13-0.jpg",
+                "timestamp": 13,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-3/snapshot-15-0.jpg",
+                "timestamp": 15,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-3/snapshot-17-0.jpg",
+                "timestamp": 17,
+                "position": null,
+                "size": null
+            }
+        ]
+    },
+    {
+        "id": "series-4",
+        "artworks": [
+            {
+                "image": "data/series-4/snapshot-1-0.jpg",
+                "timestamp": 1,
+                "position": {
+                    "x": -400,
+                    "y": -0
+                },
+                "size": {
+                    "width": 120,
+                    "height": 89
+                }
+            },
+            {
+                "image": "data/series-4/snapshot-4-0.jpg",
+                "timestamp": 4,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-4/snapshot-9-0.jpg",
+                "timestamp": 9,
+                "position": {
+                    "x": -400,
+                    "y": -100
+                },
+                "size": {
+                    "width": 240,
+                    "height": 178
+                }
+            },
+            {
+                "image": "data/series-4/snapshot-13-0.jpg",
+                "timestamp": 13,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-4/snapshot-14-0.jpg",
+                "timestamp": 14,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-4/snapshot-15-0.jpg",
+                "timestamp": 15,
+                "position": {
+                    "x": 400,
+                    "y": 100
+                },
+                "size": {
+                    "width": 360,
+                    "height": 267
+                }
+            },
+            {
+                "image": "data/series-4/snapshot-17-0.jpg",
+                "timestamp": 17,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-4/snapshot-18-0.jpg",
+                "timestamp": 18,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-4/snapshot-21-0.jpg",
+                "timestamp": 21,
+                "position": null,
+                "size": null
+            }
+        ]
+    },
+    {
+        "id": "series-5",
+        "artworks": [
+            {
+                "image": "data/series-5/snapshot-1-0.jpg",
+                "timestamp": 1,
+                "position": {
+                    "x": 422,
+                    "y": 274
+                },
+                "size": {
+                    "width": 120,
+                    "height": 89
+                }
+            },
+            {
+                "image": "data/series-5/snapshot-4-0.jpg",
+                "timestamp": 4,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-5/snapshot-9-0.jpg",
+                "timestamp": 9,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-5/snapshot-11-0.jpg",
+                "timestamp": 11,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-5/snapshot-13-0.jpg",
+                "timestamp": 13,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-5/snapshot-14-0.jpg",
+                "timestamp": 14,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-5/snapshot-15-0.jpg",
+                "timestamp": 15,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-5/snapshot-17-0.jpg",
+                "timestamp": 17,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-5/snapshot-19-0.jpg",
+                "timestamp": 19,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-5/snapshot-20-0.jpg",
+                "timestamp": 20,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-5/snapshot-21-0.jpg",
+                "timestamp": 21,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-5/snapshot-22-0.jpg",
+                "timestamp": 22,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-5/snapshot-23-0.jpg",
+                "timestamp": 23,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-5/snapshot-24-0.jpg",
+                "timestamp": 24,
+                "position": null,
+                "size": null
+            }
+        ]
+    },
+    {
+        "id": "series-2",
+        "artworks": [
+            {
+                "image": "data/series-2/snapshot-1-0.jpg",
+                "timestamp": 1,
+                "position": {
+                    "x": -248,
+                    "y": -379
+                },
+                "size": {
+                    "width": 90,
+                    "height": 120
+                }
+            },
+            {
+                "image": "data/series-2/snapshot-4-0.jpg",
+                "timestamp": 4,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-2/snapshot-9-0.jpg",
+                "timestamp": 9,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-2/snapshot-11-0.jpg",
+                "timestamp": 11,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-2/snapshot-13-0.jpg",
+                "timestamp": 13,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-2/snapshot-14-0.jpg",
+                "timestamp": 14,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-2/snapshot-15-0.jpg",
+                "timestamp": 15,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-2/snapshot-17-0.jpg",
+                "timestamp": 17,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-2/snapshot-18-0.jpg",
+                "timestamp": 18,
+                "position": null,
+                "size": null
+            }
+        ]
+    },
+    {
+        "id": "series-14",
+        "artworks": [
+            {
+                "image": "data/series-14/snapshot-1-0.jpg",
+                "timestamp": 1,
+                "position": {
+                    "x": 368,
+                    "y": 214
+                },
+                "size": {
+                    "width": 113,
+                    "height": 120
+                }
+            },
+            {
+                "image": "data/series-14/snapshot-4-0.jpg",
+                "timestamp": 4,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-14/snapshot-8-0.jpg",
+                "timestamp": 8,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-14/snapshot-11-0.jpg",
+                "timestamp": 11,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-14/snapshot-13-0.jpg",
+                "timestamp": 13,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-14/snapshot-14-0.jpg",
+                "timestamp": 14,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-14/snapshot-15-0.jpg",
+                "timestamp": 15,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-14/snapshot-17-0.jpg",
+                "timestamp": 17,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-14/snapshot-18-0.jpg",
+                "timestamp": 18,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-14/snapshot-19-0.jpg",
+                "timestamp": 19,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-14/snapshot-20-0.jpg",
+                "timestamp": 20,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-14/snapshot-21-0.jpg",
+                "timestamp": 21,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-14/snapshot-22-0.jpg",
+                "timestamp": 22,
+                "position": null,
+                "size": null
+            }
+        ]
+    },
+    {
+        "id": "series-13",
+        "artworks": [
+            {
+                "image": "data/series-13/snapshot-1-0.jpg",
+                "timestamp": 1,
+                "position": {
+                    "x": 546,
+                    "y": -227
+                },
+                "size": {
+                    "width": 120,
+                    "height": 74
+                }
+            },
+            {
+                "image": "data/series-13/snapshot-4-0.jpg",
+                "timestamp": 4,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-13/snapshot-7-0.jpg",
+                "timestamp": 7,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-13/snapshot-8-0.jpg",
+                "timestamp": 8,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-13/snapshot-13-0.jpg",
+                "timestamp": 13,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-13/snapshot-15-0.jpg",
+                "timestamp": 15,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-13/snapshot-17-0.jpg",
+                "timestamp": 17,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-13/snapshot-18-0.jpg",
+                "timestamp": 18,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-13/snapshot-21-0.jpg",
+                "timestamp": 21,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-13/snapshot-23-0.jpg",
+                "timestamp": 23,
+                "position": null,
+                "size": null
+            }
+        ]
+    },
+    {
+        "id": "series-12",
+        "artworks": [
+            {
+                "image": "data/series-12/snapshot-1-0.jpg",
+                "timestamp": 1,
+                "position": {
+                    "x": 382,
+                    "y": -89
+                },
+                "size": {
+                    "width": 120,
+                    "height": 74
+                }
+            },
+            {
+                "image": "data/series-12/snapshot-4-0.jpg",
+                "timestamp": 4,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-12/snapshot-6-0.jpg",
+                "timestamp": 6,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-12/snapshot-8-0.jpg",
+                "timestamp": 8,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-12/snapshot-11-0.jpg",
+                "timestamp": 11,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-12/snapshot-13-0.jpg",
+                "timestamp": 13,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-12/snapshot-14-0.jpg",
+                "timestamp": 14,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-12/snapshot-15-0.jpg",
+                "timestamp": 15,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-12/snapshot-17-0.jpg",
+                "timestamp": 17,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-12/snapshot-18-0.jpg",
+                "timestamp": 18,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-12/snapshot-19-0.jpg",
+                "timestamp": 19,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-12/snapshot-20-0.jpg",
+                "timestamp": 20,
+                "position": null,
+                "size": null
+            }
+        ]
+    },
+    {
+        "id": "series-7",
+        "artworks": [
+            {
+                "image": "data/series-7/snapshot-1-0.jpg",
+                "timestamp": 1,
+                "position": {
+                    "x": 305,
+                    "y": 197
+                },
+                "size": {
+                    "width": 120,
+                    "height": 74
+                }
+            },
+            {
+                "image": "data/series-7/snapshot-4-0.jpg",
+                "timestamp": 4,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-7/snapshot-7-0.jpg",
+                "timestamp": 7,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-7/snapshot-8-0.jpg",
+                "timestamp": 8,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-7/snapshot-9-0.jpg",
+                "timestamp": 9,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-7/snapshot-11-0.jpg",
+                "timestamp": 11,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-7/snapshot-13-0.jpg",
+                "timestamp": 13,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-7/snapshot-15-0.jpg",
+                "timestamp": 15,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-7/snapshot-17-0.jpg",
+                "timestamp": 17,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-7/snapshot-18-0.jpg",
+                "timestamp": 18,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-7/snapshot-19-0.jpg",
+                "timestamp": 19,
+                "position": null,
+                "size": null
+            }
+        ]
+    },
+    {
+        "id": "series-9",
+        "artworks": [
+            {
+                "image": "data/series-9/snapshot-1-0.jpg",
+                "timestamp": 1,
+                "position": {
+                    "x": -53,
+                    "y": 103
+                },
+                "size": {
+                    "width": 74,
+                    "height": 120
+                }
+            },
+            {
+                "image": "data/series-9/snapshot-4-0.jpg",
+                "timestamp": 4,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-9/snapshot-7-0.jpg",
+                "timestamp": 7,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-9/snapshot-8-0.jpg",
+                "timestamp": 8,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-9/snapshot-11-0.jpg",
+                "timestamp": 11,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-9/snapshot-13-0.jpg",
+                "timestamp": 13,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-9/snapshot-14-0.jpg",
+                "timestamp": 14,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-9/snapshot-15-0.jpg",
+                "timestamp": 15,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-9/snapshot-17-0.jpg",
+                "timestamp": 17,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-9/snapshot-18-0.jpg",
+                "timestamp": 18,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-9/snapshot-19-0.jpg",
+                "timestamp": 19,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-9/snapshot-20-0.jpg",
+                "timestamp": 20,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-9/snapshot-21-0.jpg",
+                "timestamp": 21,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-9/snapshot-22-0.jpg",
+                "timestamp": 22,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-9/snapshot-23-0.jpg",
+                "timestamp": 23,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-9/snapshot-24-0.jpg",
+                "timestamp": 24,
+                "position": null,
+                "size": null
+            }
+        ]
+    },
+    {
+        "id": "series-8",
+        "artworks": [
+            {
+                "image": "data/series-8/snapshot-1-0.jpg",
+                "timestamp": 1,
+                "position": {
+                    "x": 317,
+                    "y": 134
+                },
+                "size": {
+                    "width": 120,
+                    "height": 74
+                }
+            },
+            {
+                "image": "data/series-8/snapshot-4-0.jpg",
+                "timestamp": 4,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-8/snapshot-8-0.jpg",
+                "timestamp": 8,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-8/snapshot-11-0.jpg",
+                "timestamp": 11,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-8/snapshot-13-0.jpg",
+                "timestamp": 13,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-8/snapshot-14-0.jpg",
+                "timestamp": 14,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-8/snapshot-15-0.jpg",
+                "timestamp": 15,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-8/snapshot-17-0.jpg",
+                "timestamp": 17,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-8/snapshot-18-0.jpg",
+                "timestamp": 18,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-8/snapshot-19-0.jpg",
+                "timestamp": 19,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-8/snapshot-21-0.jpg",
+                "timestamp": 21,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-8/snapshot-22-0.jpg",
+                "timestamp": 22,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-8/snapshot-23-0.jpg",
+                "timestamp": 23,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-8/snapshot-24-0.jpg",
+                "timestamp": 24,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-8/snapshot-25-0.jpg",
+                "timestamp": 25,
+                "position": null,
+                "size": null
+            }
+        ]
+    },
+    {
+        "id": "series-1",
+        "artworks": [
+            {
+                "image": "data/series-1/snapshot-1-0.jpg",
+                "timestamp": 1,
+                "position": {
+                    "x": -100,
+                    "y": -126
+                },
+                "size": {
+                    "width": 120,
+                    "height": 90
+                }
+            },
+            {
+                "image": "data/series-1/snapshot-4-0.jpg",
+                "timestamp": 4,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-1/snapshot-8-0.jpg",
+                "timestamp": 8,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-1/snapshot-11-0.jpg",
+                "timestamp": 11,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-1/snapshot-13-0.jpg",
+                "timestamp": 13,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-1/snapshot-17-0.jpg",
+                "timestamp": 17,
+                "position": null,
+                "size": null
+            }
+        ]
+    },
+    {
+        "id": "series-6",
+        "artworks": [
+            {
+                "image": "data/series-6/snapshot-1-0.jpg",
+                "timestamp": 1,
+                "position": {
+                    "x": 208,
+                    "y": 302
+                },
+                "size": {
+                    "width": 120,
+                    "height": 73
+                }
+            },
+            {
+                "image": "data/series-6/snapshot-4-0.jpg",
+                "timestamp": 4,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-6/snapshot-8-0.jpg",
+                "timestamp": 8,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-6/snapshot-9-0.jpg",
+                "timestamp": 9,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-6/snapshot-11-0.jpg",
+                "timestamp": 11,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-6/snapshot-13-0.jpg",
+                "timestamp": 13,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-6/snapshot-15-0.jpg",
+                "timestamp": 15,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-6/snapshot-17-0.jpg",
+                "timestamp": 17,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-6/snapshot-18-0.jpg",
+                "timestamp": 18,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-6/snapshot-19-0.jpg",
+                "timestamp": 19,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-6/snapshot-20-0.jpg",
+                "timestamp": 20,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-6/snapshot-21-0.jpg",
+                "timestamp": 21,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-6/snapshot-22-0.jpg",
+                "timestamp": 22,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-6/snapshot-23-0.jpg",
+                "timestamp": 23,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-6/snapshot-24-0.jpg",
+                "timestamp": 24,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-6/snapshot-25-0.jpg",
+                "timestamp": 25,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-6/snapshot-26-0.jpg",
+                "timestamp": 26,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-6/snapshot-27-0.jpg",
+                "timestamp": 27,
+                "position": null,
+                "size": null
+            },
+            {
+                "image": "data/series-6/snapshot-28-0.jpg",
+                "timestamp": 28,
+                "position": null,
+                "size": null
+            }
         ]
     }
 ]
