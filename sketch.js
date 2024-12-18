@@ -9,7 +9,7 @@ let artworkData;
 
 function preload() {
     // Load the JSON file
-    artworkData = loadJSON('data-2024-12-18-1305.json', processData);
+    artworkData = loadJSON('data-2024-12-18-1313.json', processData);
 }
 
 function processData(data) {

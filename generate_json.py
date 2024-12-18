@@ -18,7 +18,7 @@ def extract_number_from_filename(filename):
 
 # Function to generate a random x and y position between 0 and 600
 def generate_random_position():
-    return {"x": random.randint(0, 600), "y": random.randint(0, 600)}
+    return {"x": random.randint(100, 1100), "y": random.randint(100, 700)}
 
 # Function to organize the data
 def create_json_from_images(base_dir):
