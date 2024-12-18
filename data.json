@@ -1,0 +1,61 @@
+[
+    {
+        "id": "art1",
+        "images": [
+            "images/artwork_01/01.jpg",
+            "images/artwork_01/02.jpg",
+            "images/artwork_01/03.jpg",
+            "images/artwork_01/04.jpg",
+            "images/artwork_01/05.jpg",
+            "images/artwork_01/07.jpg"
+        ],
+        "timestamps": [0, 10, 20, 40, 50, 60],
+        "positions": [
+            {"x": 0, "y": 0},
+            {"x": 300, "y": 100},
+            {"x": 100, "y": 100},
+            {"x": 100, "y": 100},
+            {"x": 100, "y": 100},
+            {"x": 100, "y": 100}
+        ]
+    }, 
+    {
+        "id": "art2",
+        "images": [
+            "images/artwork_02/01.jpg",
+            "images/artwork_02/02.jpg",
+            "images/artwork_02/03.jpg",
+            "images/artwork_02/04.jpg",
+            "images/artwork_02/05.jpg",
+            "images/artwork_02/06.jpg"
+        ],
+        "timestamps": [0, 10, 20, 40, 50, 60],
+        "positions": [
+            {"x": 300, "y": 100},
+            {"x": 100, "y": 100},
+            {"x": 300, "y": 100},
+            {"x": 300, "y": 100},
+            {"x": 300, "y": 100},
+            {"x": 300, "y": 100}
+        ]
+    },    {
+        "id": "art2",
+        "images": [
+            "images/artwork_03/01.jpg",
+            "images/artwork_03/02.jpg",
+            "images/artwork_03/03.jpg",
+            "images/artwork_03/04.jpg",
+            "images/artwork_03/05.jpg",
+            "images/artwork_03/06.jpg"
+        ],
+        "timestamps": [0, 10, 20, 50, 55, 60],
+        "positions": [
+            {"x": 300, "y": 400},
+            {"x": 300, "y": 400},
+            {"x": 300, "y": 400},
+            {"x": 300, "y": 400},
+            {"x": 300, "y": 400},
+            {"x": 300, "y": 400}
+        ]
+    }
+]
