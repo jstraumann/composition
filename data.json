@@ -2,12 +2,9 @@
     {
         "id": "art1",
         "images": [
-            "images/artwork_01/01.jpg",
-            "images/artwork_01/02.jpg",
-            "images/artwork_01/03.jpg",
-            "images/artwork_01/04.jpg",
-            "images/artwork_01/05.jpg",
-            "images/artwork_01/07.jpg"
+            "data/series-1/snapshot-1-0.jpg",
+            "data/series-1/snapshot-4-0.jpg",
+            "data/series-1/snapshot-8-0.jpg"
         ],
         "timestamps": [0, 10, 20, 40, 50, 60],
         "positions": [

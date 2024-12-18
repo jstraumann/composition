@@ -9,6 +9,9 @@ class Artwork {
         this.targetPosition = { x: 0, y: 0 };
         this.easingTimer = 0;
         this.easingDuration = 0.2 * 60; // 0.2 seconds in frames
+
+        console.log(this.timestamps);
+        
     }
     
     update(currentTimestamp) {
@@ -50,7 +53,7 @@ class Artwork {
     
     display() {
         if (this.currentImage) {
-            image(this.currentImage, this.currentPosition.x, this.currentPosition.y);
+            image(this.currentImage, this.currentPosition.x, this.currentPosition.y, 100, 100);
         }
     }
 }
