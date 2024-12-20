@@ -93,10 +93,10 @@ def generate_json_from_structure(images_dir, positions_dir):
                 
                 # Update the position and size based on SVG values
                 # The `x` and `y` from the SVG are for the top-left corner, but you need the center
-                position["x"] += size["width"] / 2  # Offset by half the width for centering
-                position["y"] += size["height"] / 2
-                position["x"] -= 600  # Offset by half the width for centering
-                position["y"] -= 417  # Offset by half the height for centering
+                position["x"] += size["width"] / 2  # Offset by half the image width for centering
+                position["y"] += size["height"] / 2 # Offset by half the image height for centering
+                position["x"] -= 600  # Offset by half the artboard width for centering
+                position["y"] -= 417  # Offset by half the artboard height for centering
                 
 
                 # Update the last known position and size
