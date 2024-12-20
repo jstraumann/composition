@@ -44,9 +44,19 @@ def parse_svg(svg_path):
                 width = float(rect.attrib.get('width', 100))
                 height = float(rect.attrib.get('height', 100))
                 
+                # Parse rotation if present
+                transform = rect.attrib.get('transform', '')
+                rotation = 0  # Default to no rotation
+                if 'rotate' in transform:
+                    try:
+                        rotation = float(transform.split('rotate(')[1].split()[0])  # Extract the angle
+                    except (ValueError, IndexError):
+                        print(f"Error parsing rotation value in transform: {transform}")
+                
                 positions_and_sizes[series_id] = {
                     "position": {"x": x, "y": y},
-                    "size": {"width": width, "height": height}
+                    "size": {"width": width, "height": height},
+                    "rotation": rotation
                 }
         return positions_and_sizes
     except ET.ParseError as e:
@@ -83,6 +93,7 @@ def generate_json_from_structure(images_dir, positions_dir):
         # Initialize variables to store the last known position and size
         last_position = {"x": 0, "y": 0}
         last_size = {"width": 100, "height": 100}
+        last_rotation = 0
 
         # Sort the image files by the timestamp extracted from the filename
         image_files_sorted = sorted(image_files, key=lambda f: get_image_timestamp(os.path.join(series_path, f)))
@@ -100,20 +111,20 @@ def generate_json_from_structure(images_dir, positions_dir):
                 if svg_entry:
                     last_position = svg_entry.get("position", last_position)
                     last_size = svg_entry.get("size", last_size)
-                    # Center adjustments
-                    last_position["x"] += last_size["width"] / 2 - 600
-                    last_position["y"] += last_size["height"] / 2 - 417
+                    last_position["x"] += last_size["width"] / 2 - 640
+                    last_position["y"] += last_size["height"] / 2 - 457
+                    last_rotation = svg_entry.get("rotation", last_rotation)
 
             if timestamp in all_timestamps:
                 file = image_files_sorted[all_timestamps.index(timestamp)]
                 image_path = os.path.join(series_path, file)
-                img_width, img_height = get_image_sizes(image_path)
 
                 series["artworks"].append({
                     "image": image_path,
                     "timestamp": timestamp,
                     "position": last_position,
-                    "size": last_size
+                    "size": last_size,
+                    "rotation": last_rotation
                 })
             else:
                 # Use the last valid image and SVG data
@@ -121,7 +132,8 @@ def generate_json_from_structure(images_dir, positions_dir):
                     "image": series["artworks"][-1]["image"],  # Repeat the last image
                     "timestamp": timestamp,
                     "position": last_position,
-                    "size": last_size
+                    "size": last_size,
+                    "rotation": last_rotation
                 })
 
         data.append(series)
