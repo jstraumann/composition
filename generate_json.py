@@ -20,29 +20,37 @@ def get_image_timestamp(image_path):
         return 0
 
 def get_image_sizes(image_path):
-    with Image.open(image_path) as img:
-        width, height = img.size
-    return width, height
+    try:
+        with Image.open(image_path) as img:
+            width, height = img.size
+        return width, height
+    except Exception as e:
+        print(f"Error opening image {image_path}: {e}")
+        return 120, 120  # Return default size in case of an error
 
 def parse_svg(svg_path):
-    tree = ET.parse(svg_path)
-    root = tree.getroot()
-    namespace = {'svg': 'http://www.w3.org/2000/svg'}
-    
-    positions_and_sizes = {}
-    
-    for rect in root.findall(".//svg:rect", namespace):
-        series_id = rect.attrib.get('id')
-        if series_id:
-            x = float(rect.attrib.get('x', 0))
-            y = float(rect.attrib.get('y', 0))
-            width = float(rect.attrib.get('width', 0))
-            height = float(rect.attrib.get('height', 0))
-            positions_and_sizes[series_id] = {
-                "position": {"x": x, "y": y},
-                "size": {"width": width, "height": height}
-            }
-    return positions_and_sizes
+    try:
+        tree = ET.parse(svg_path)
+        root = tree.getroot()
+        namespace = {'svg': 'http://www.w3.org/2000/svg'}
+        
+        positions_and_sizes = {}
+        
+        for rect in root.findall(".//svg:rect", namespace):
+            series_id = rect.attrib.get('id')
+            if series_id:
+                x = float(rect.attrib.get('x', 0))
+                y = float(rect.attrib.get('y', 0))
+                width = float(rect.attrib.get('width', 0))
+                height = float(rect.attrib.get('height', 0))
+                positions_and_sizes[series_id] = {
+                    "position": {"x": x, "y": y},
+                    "size": {"width": width, "height": height}
+                }
+        return positions_and_sizes
+    except ET.ParseError as e:
+        print(f"Error parsing SVG {svg_path}: {e}")
+        return {}
 
 def generate_json_from_structure(images_dir, positions_dir):
     data = []
@@ -79,11 +87,10 @@ def generate_json_from_structure(images_dir, positions_dir):
             timestamp = get_image_timestamp(image_path)
             img_width, img_height = get_image_sizes(image_path)
 
-            # Initialize variables to store the last known position and size for each file
-            # Set the default position and size for the first image or if no timestamp is found
-            if timestamp == 1:  # Assuming the first image has timestamp 1
-                last_position = {"x": 0, "y": 0}  # Default position if no timestamp
-                last_size = {"width": 100, "height": 100}  # Default size if no timestamp
+            # Set default position and size for the first image or if no timestamp is found
+            if timestamp == 1:  
+                last_position = {"x": 0, "y": 0}  # Default position
+                last_size = {"width": 100, "height": 100}  # Default size
             else:
                 last_position = last_position if last_position else {"x": 0, "y": 0}
                 last_size = last_size if last_size else {"width": 100, "height": 100}
@@ -94,14 +101,13 @@ def generate_json_from_structure(images_dir, positions_dir):
                 svg_data = parse_svg(svg_files[timestamp])
                 svg_entry = svg_data.get(series_dir, {})
                 position = svg_entry.get("position", {"x": 0, "y": 0})
-                size = svg_entry.get("size", {"width": img_width, "height": img_height})  # Use the full size directly from the SVG
-                
-                # Update the position and size based on SVG values
-                position["x"] += size["width"] / 2  # Offset by half the image width for centering
-                position["y"] += size["height"] / 2 # Offset by half the image height for centering
-                position["x"] -= 600  # Offset by half the artboard width for centering
-                position["y"] -= 417  # Offset by half the artboard height for centering
-                
+                size = svg_entry.get("size", {"width": img_width, "height": img_height})  # Use size from SVG
+
+                # Update position and size
+                position["x"] += size["width"] / 2
+                position["y"] += size["height"] / 2
+                position["x"] -= 600  # Offset for centering
+                position["y"] -= 417  # Offset for centering
 
                 # Update the last known position and size
                 last_position = position
@@ -111,10 +117,6 @@ def generate_json_from_structure(images_dir, positions_dir):
                 position = last_position
                 size = last_size
 
-                # Default size fallback if size wasn't set before
-                if not size:
-                    size = {"width": img_width, "height": img_height}
-            
             # Append to the series
             series["artworks"].append({
                 "image": image_path,
@@ -126,7 +128,6 @@ def generate_json_from_structure(images_dir, positions_dir):
         # Now append this series to the data
         data.append(series)
 
-    
     # Handle special case: Place "overview" series first
     overview_series = [series for series in data if series["id"] == "overview"]
     if overview_series:
