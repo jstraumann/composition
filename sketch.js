@@ -10,6 +10,9 @@ let maxTimestamp = -Infinity;
 let slider;
 
 
+let selectedArtwork = null;
+
+
 function preload() {
     // Load the JSON file
     artworkData = loadJSON('data.json', processData);
@@ -60,7 +63,9 @@ function processData(data) {
         }
 
         // Create a new Artwork object with the sizes and positions arrays
-        artworks.push(new Artwork(item.id, artworkImages, timestamps, positions, sizes));
+        let isDraggable = item.id !== "overview";
+
+        artworks.push(new Artwork(item.id, artworkImages, timestamps, positions, sizes, isDraggable));
         minTimestamp = Math.min(minTimestamp, ...timestamps);
         maxTimestamp = Math.max(maxTimestamp, ...timestamps);
     }
@@ -103,5 +108,71 @@ function updateArtworks(timestamp) {
     for (let artwork of artworks) {
         artwork.update(timestamp);
         artwork.display();
+    }
+}
+
+
+function mousePressed() {
+    // Check if any artwork is clicked
+    for (let artwork of artworks) {
+        artwork.startDrag(mouseX, mouseY);
+        if (artwork.isDragging) {
+            selectedArtwork = artwork;
+            break;
+        }
+    }
+}
+
+function mouseDragged() {
+    // If an artwork is being dragged, update its position
+    if (selectedArtwork) {
+        selectedArtwork.drag(mouseX, mouseY);
+    }
+}
+
+function mouseReleased() {
+    // Stop dragging the selected artwork
+    if (selectedArtwork) {
+        selectedArtwork.stopDrag();
+        selectedArtwork = null;
+    }
+}
+
+// function saveData() {
+//     let jsonData = artworks.map(artwork => ({
+//         id: artwork.id,
+//         artworks: artwork.timestamps.map((timestamp, index) => ({
+//             image: artwork.images[index].src,
+//             timestamp: timestamp,
+//             position: artwork.positions[index],
+//             size: artwork.sizes[index],
+//         })),
+//     }));
+
+//     saveJSON(jsonData, 'data.json');
+// }
+function saveData() {
+    // Map through each series in artworkData
+    const updatedData = artworkData.map(series => {
+        return {
+            id: series.id,
+            artworks: series.artworks.map((artwork, index) => {
+                return {
+                    image: series.images ? series.images[index] : null, // Ensure images are handled safely
+                    timestamp: artwork.timestamp,
+                    position: artwork.position ? { ...artwork.position } : null,
+                    size: artwork.size ? { ...artwork.size } : null
+                };
+            })
+        };
+    });
+
+    // Save the updated JSON to a file
+    saveJSON(updatedData, 'updated-data.json');
+}
+
+function keyPressed() {
+    if (key === 's' || key === 'S') {
+        saveData();
     }
 }
