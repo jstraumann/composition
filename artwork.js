@@ -82,11 +82,12 @@ class Artwork {
                 m.y < this.currentPosition.y + this.currentSize.height / 2
             ) {
                 // Display the ID
+                strokeWeight(2);
+                stroke(255);
                 fill(0); // Black text
-                noStroke();
                 textAlign(CENTER, CENTER);
                 let textOutput = this.id + ": " + this.targetPosition.x + " / " + this.targetPosition.y + ": " + this.targetSize.width + " / " + this.targetSize.height;
-                text(textOutput, this.currentPosition.x, this.currentPosition.y - this.currentSize.height / 2 - 10); // Show above the artwork
+                text(textOutput, this.currentPosition.x, this.currentPosition.y - 10); // Show above the artwork
             }
         }
     }
