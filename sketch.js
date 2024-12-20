@@ -1,6 +1,6 @@
 // Sketch
-const canvasWidth = 1280;
-const canvasHeight = 920; 
+const canvasWidth = 1200;
+const canvasHeight = 834;
 
 // Artworks
 let artworkData = [];
@@ -9,9 +9,9 @@ let minTimestamp = Infinity;
 let maxTimestamp = -Infinity;
 let slider;
 
-
+let sliderValueDisplay;
 let selectedArtwork = null;
-
+let center;
 
 function preload() {
     // Load the JSON file
@@ -62,13 +62,12 @@ function processData(data) {
             positions.push(position);
         }
 
-        // Create a new Artwork object with the sizes and positions arrays
-        let isDraggable = item.id !== "overview";
-
-        artworks.push(new Artwork(item.id, artworkImages, timestamps, positions, sizes, isDraggable));
+        artworks.push(new Artwork(item.id, artworkImages, timestamps, positions, sizes));
         minTimestamp = Math.min(minTimestamp, ...timestamps);
         maxTimestamp = Math.max(maxTimestamp, ...timestamps);
     }
+    console.log(artworkData);
+    
     dataLoaded = true;
 }
 
@@ -87,7 +86,16 @@ function setup() {
     slider.attribute('min', minTimestamp);
     slider.attribute('max', maxTimestamp);
 
-    slider.input(updateArtworks);
+    // Create a p tag to display the slider value
+    sliderValueDisplay = createP(`Current Timestamp: ${slider.value()}`);
+    sliderValueDisplay.parent('sketch-container'); // Append to the same container as the canvas
+
+    slider.input(() => {
+        updateArtworks();
+        updateSliderDisplay();
+    });
+
+    center = createVector(width/2, height/2);
     frameRate(60);
 }
 
@@ -95,7 +103,7 @@ function setup() {
 
 function draw() {
     background(255);
-    translate(width / 2, height / 2);
+    translate(center);
     let currentTimestamp = slider.value();
     for (let artwork of artworks) {
         artwork.update(currentTimestamp);
@@ -111,68 +119,6 @@ function updateArtworks(timestamp) {
     }
 }
 
-
-function mousePressed() {
-    // Check if any artwork is clicked
-    for (let artwork of artworks) {
-        artwork.startDrag(mouseX, mouseY);
-        if (artwork.isDragging) {
-            selectedArtwork = artwork;
-            break;
-        }
-    }
-}
-
-function mouseDragged() {
-    // If an artwork is being dragged, update its position
-    if (selectedArtwork) {
-        selectedArtwork.drag(mouseX, mouseY);
-    }
-}
-
-function mouseReleased() {
-    // Stop dragging the selected artwork
-    if (selectedArtwork) {
-        selectedArtwork.stopDrag();
-        selectedArtwork = null;
-    }
-}
-
-// function saveData() {
-//     let jsonData = artworks.map(artwork => ({
-//         id: artwork.id,
-//         artworks: artwork.timestamps.map((timestamp, index) => ({
-//             image: artwork.images[index].src,
-//             timestamp: timestamp,
-//             position: artwork.positions[index],
-//             size: artwork.sizes[index],
-//         })),
-//     }));
-
-//     saveJSON(jsonData, 'data.json');
-// }
-function saveData() {
-    // Map through each series in artworkData
-    const updatedData = artworkData.map(series => {
-        return {
-            id: series.id,
-            artworks: series.artworks.map((artwork, index) => {
-                return {
-                    image: series.images ? series.images[index] : null, // Ensure images are handled safely
-                    timestamp: artwork.timestamp,
-                    position: artwork.position ? { ...artwork.position } : null,
-                    size: artwork.size ? { ...artwork.size } : null
-                };
-            })
-        };
-    });
-
-    // Save the updated JSON to a file
-    saveJSON(updatedData, 'updated-data.json');
-}
-
-function keyPressed() {
-    if (key === 's' || key === 'S') {
-        saveData();
-    }
+function updateSliderDisplay() {
+    sliderValueDisplay.html(`Current Timestamp: ${slider.value()}`);
 }

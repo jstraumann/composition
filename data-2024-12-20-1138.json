@@ -6,8 +6,8 @@
                 "image": "data/images/series-1/snapshot-1-1-0.jpg",
                 "timestamp": 1,
                 "position": {
-                    "x": 0.0,
-                    "y": 0.0
+                    "x": -198.0,
+                    "y": -14.0
                 },
                 "size": {
                     "width": 120.0,
@@ -18,8 +18,8 @@
                 "image": "data/images/series-1/snapshot-1-11-0.jpg",
                 "timestamp": 11,
                 "position": {
-                    "x": 0.0,
-                    "y": 0.0
+                    "x": -198.0,
+                    "y": -14.0
                 },
                 "size": {
                     "width": 120.0,
@@ -30,8 +30,8 @@
                 "image": "data/images/series-1/snapshot-1-13-0.jpg",
                 "timestamp": 13,
                 "position": {
-                    "x": 0.0,
-                    "y": 0.0
+                    "x": -198.0,
+                    "y": -14.0
                 },
                 "size": {
                     "width": 120.0,
@@ -42,8 +42,8 @@
                 "image": "data/images/series-1/snapshot-1-17-0.jpg",
                 "timestamp": 17,
                 "position": {
-                    "x": 0.0,
-                    "y": 0.0
+                    "x": -198.0,
+                    "y": -14.0
                 },
                 "size": {
                     "width": 120.0,
@@ -54,8 +54,8 @@
                 "image": "data/images/series-1/snapshot-1-4-0.jpg",
                 "timestamp": 4,
                 "position": {
-                    "x": 0.0,
-                    "y": 0.0
+                    "x": -198.0,
+                    "y": -14.0
                 },
                 "size": {
                     "width": 120.0,
@@ -66,8 +66,8 @@
                 "image": "data/images/series-1/snapshot-1-8-0.jpg",
                 "timestamp": 8,
                 "position": {
-                    "x": 0.0,
-                    "y": 0.0
+                    "x": -198.0,
+                    "y": -14.0
                 },
                 "size": {
                     "width": 120.0,
@@ -83,8 +83,8 @@
                 "image": "data/images/series-10/snapshot-10-1-0.jpg",
                 "timestamp": 1,
                 "position": {
-                    "x": -194.0,
-                    "y": -165.0
+                    "x": 406.0,
+                    "y": 435.0
                 },
                 "size": {
                     "width": 120.0,
@@ -95,8 +95,8 @@
                 "image": "data/images/series-10/snapshot-10-11-0.jpg",
                 "timestamp": 11,
                 "position": {
-                    "x": -194.0,
-                    "y": -165.0
+                    "x": 406.0,
+                    "y": 435.0
                 },
                 "size": {
                     "width": 120.0,
@@ -107,8 +107,8 @@
                 "image": "data/images/series-10/snapshot-10-13-0.jpg",
                 "timestamp": 13,
                 "position": {
-                    "x": -194.0,
-                    "y": -165.0
+                    "x": 406.0,
+                    "y": 435.0
                 },
                 "size": {
                     "width": 120.0,
@@ -119,8 +119,8 @@
                 "image": "data/images/series-10/snapshot-10-14-0.jpg",
                 "timestamp": 14,
                 "position": {
-                    "x": -194.0,
-                    "y": -165.0
+                    "x": 406.0,
+                    "y": 435.0
                 },
                 "size": {
                     "width": 120.0,
@@ -131,8 +131,8 @@
                 "image": "data/images/series-10/snapshot-10-15-0.jpg",
                 "timestamp": 15,
                 "position": {
-                    "x": -236.0,
-                    "y": 357.0
+                    "x": 406.0,
+                    "y": 435.0
                 },
                 "size": {
                     "width": 120.0,
@@ -143,8 +143,8 @@
                 "image": "data/images/series-10/snapshot-10-17-0.jpg",
                 "timestamp": 17,
                 "position": {
-                    "x": -236.0,
-                    "y": 357.0
+                    "x": 406.0,
+                    "y": 435.0
                 },
                 "size": {
                     "width": 120.0,
@@ -155,8 +155,8 @@
                 "image": "data/images/series-10/snapshot-10-18-0.jpg",
                 "timestamp": 18,
                 "position": {
-                    "x": -236.0,
-                    "y": 357.0
+                    "x": 406.0,
+                    "y": 435.0
                 },
                 "size": {
                     "width": 120.0,
@@ -167,8 +167,8 @@
                 "image": "data/images/series-10/snapshot-10-19-0.jpg",
                 "timestamp": 19,
                 "position": {
-                    "x": -236.0,
-                    "y": 357.0
+                    "x": 406.0,
+                    "y": 435.0
                 },
                 "size": {
                     "width": 120.0,
@@ -179,36 +179,36 @@
                 "image": "data/images/series-10/snapshot-10-20-0.jpg",
                 "timestamp": 20,
                 "position": {
-                    "x": 0.5,
-                    "y": 0.0
+                    "x": 406.0,
+                    "y": 435.0
                 },
                 "size": {
-                    "width": 179.0,
-                    "height": 114.0
+                    "width": 120.0,
+                    "height": 120.0
                 }
             },
             {
                 "image": "data/images/series-10/snapshot-10-4-0.jpg",
                 "timestamp": 4,
                 "position": {
-                    "x": 0.5,
-                    "y": 0.0
+                    "x": 406.0,
+                    "y": 435.0
                 },
                 "size": {
-                    "width": 179.0,
-                    "height": 114.0
+                    "width": 120.0,
+                    "height": 120.0
                 }
             },
             {
                 "image": "data/images/series-10/snapshot-10-8-0.jpg",
                 "timestamp": 8,
                 "position": {
-                    "x": 0.5,
-                    "y": 0.0
+                    "x": 406.0,
+                    "y": 435.0
                 },
                 "size": {
-                    "width": 179.0,
-                    "height": 114.0
+                    "width": 120.0,
+                    "height": 120.0
                 }
             }
         ]
@@ -220,8 +220,8 @@
                 "image": "data/images/series-11/snapshot-11-1-0.jpg",
                 "timestamp": 1,
                 "position": {
-                    "x": -42.0,
-                    "y": -165.0
+                    "x": 498.0,
+                    "y": 375.0
                 },
                 "size": {
                     "width": 120.0,
@@ -232,8 +232,8 @@
                 "image": "data/images/series-11/snapshot-11-11-0.jpg",
                 "timestamp": 11,
                 "position": {
-                    "x": -42.0,
-                    "y": -165.0
+                    "x": 498.0,
+                    "y": 375.0
                 },
                 "size": {
                     "width": 120.0,
@@ -244,8 +244,8 @@
                 "image": "data/images/series-11/snapshot-11-13-0.jpg",
                 "timestamp": 13,
                 "position": {
-                    "x": -42.0,
-                    "y": -165.0
+                    "x": 498.0,
+                    "y": 375.0
                 },
                 "size": {
                     "width": 120.0,
@@ -256,8 +256,8 @@
                 "image": "data/images/series-11/snapshot-11-15-0.jpg",
                 "timestamp": 15,
                 "position": {
-                    "x": -84.0,
-                    "y": 357.0
+                    "x": 498.0,
+                    "y": 375.0
                 },
                 "size": {
                     "width": 120.0,
@@ -268,8 +268,8 @@
                 "image": "data/images/series-11/snapshot-11-17-0.jpg",
                 "timestamp": 17,
                 "position": {
-                    "x": -84.0,
-                    "y": 357.0
+                    "x": 498.0,
+                    "y": 375.0
                 },
                 "size": {
                     "width": 120.0,
@@ -280,8 +280,8 @@
                 "image": "data/images/series-11/snapshot-11-18-0.jpg",
                 "timestamp": 18,
                 "position": {
-                    "x": -84.0,
-                    "y": 357.0
+                    "x": 498.0,
+                    "y": 375.0
                 },
                 "size": {
                     "width": 120.0,
@@ -292,8 +292,8 @@
                 "image": "data/images/series-11/snapshot-11-19-0.jpg",
                 "timestamp": 19,
                 "position": {
-                    "x": -84.0,
-                    "y": 357.0
+                    "x": 498.0,
+                    "y": 375.0
                 },
                 "size": {
                     "width": 120.0,
@@ -304,36 +304,36 @@
                 "image": "data/images/series-11/snapshot-11-20-0.jpg",
                 "timestamp": 20,
                 "position": {
-                    "x": 0.0,
-                    "y": -0.5
+                    "x": 498.0,
+                    "y": 375.0
                 },
                 "size": {
-                    "width": 394.0,
-                    "height": 299.0
+                    "width": 120.0,
+                    "height": 120.0
                 }
             },
             {
                 "image": "data/images/series-11/snapshot-11-4-0.jpg",
                 "timestamp": 4,
                 "position": {
-                    "x": 0.0,
-                    "y": -0.5
+                    "x": 498.0,
+                    "y": 375.0
                 },
                 "size": {
-                    "width": 394.0,
-                    "height": 299.0
+                    "width": 120.0,
+                    "height": 120.0
                 }
             },
             {
                 "image": "data/images/series-11/snapshot-11-6-0.jpg",
                 "timestamp": 6,
                 "position": {
-                    "x": 0.0,
-                    "y": -0.5
+                    "x": 498.0,
+                    "y": 375.0
                 },
                 "size": {
-                    "width": 394.0,
-                    "height": 299.0
+                    "width": 120.0,
+                    "height": 120.0
                 }
             }
         ]
@@ -345,8 +345,8 @@
                 "image": "data/images/series-12/snapshot-12-1-0.jpg",
                 "timestamp": 1,
                 "position": {
-                    "x": 110.0,
-                    "y": -165.0
+                    "x": 770.0,
+                    "y": 495.0
                 },
                 "size": {
                     "width": 120.0,
@@ -357,8 +357,8 @@
                 "image": "data/images/series-12/snapshot-12-11-0.jpg",
                 "timestamp": 11,
                 "position": {
-                    "x": 110.0,
-                    "y": -165.0
+                    "x": 770.0,
+                    "y": 495.0
                 },
                 "size": {
                     "width": 120.0,
@@ -369,8 +369,8 @@
                 "image": "data/images/series-12/snapshot-12-13-0.jpg",
                 "timestamp": 13,
                 "position": {
-                    "x": 110.0,
-                    "y": -165.0
+                    "x": 770.0,
+                    "y": 495.0
                 },
                 "size": {
                     "width": 120.0,
@@ -381,8 +381,8 @@
                 "image": "data/images/series-12/snapshot-12-14-0.jpg",
                 "timestamp": 14,
                 "position": {
-                    "x": 110.0,
-                    "y": -165.0
+                    "x": 770.0,
+                    "y": 495.0
                 },
                 "size": {
                     "width": 120.0,
@@ -393,8 +393,8 @@
                 "image": "data/images/series-12/snapshot-12-15-0.jpg",
                 "timestamp": 15,
                 "position": {
-                    "x": 68.0,
-                    "y": 357.0
+                    "x": 770.0,
+                    "y": 495.0
                 },
                 "size": {
                     "width": 120.0,
@@ -405,8 +405,8 @@
                 "image": "data/images/series-12/snapshot-12-17-0.jpg",
                 "timestamp": 17,
                 "position": {
-                    "x": 68.0,
-                    "y": 357.0
+                    "x": 770.0,
+                    "y": 495.0
                 },
                 "size": {
                     "width": 120.0,
@@ -417,8 +417,8 @@
                 "image": "data/images/series-12/snapshot-12-18-0.jpg",
                 "timestamp": 18,
                 "position": {
-                    "x": 68.0,
-                    "y": 357.0
+                    "x": 770.0,
+                    "y": 495.0
                 },
                 "size": {
                     "width": 120.0,
@@ -429,8 +429,8 @@
                 "image": "data/images/series-12/snapshot-12-19-0.jpg",
                 "timestamp": 19,
                 "position": {
-                    "x": 68.0,
-                    "y": 357.0
+                    "x": 770.0,
+                    "y": 495.0
                 },
                 "size": {
                     "width": 120.0,
@@ -441,48 +441,48 @@
                 "image": "data/images/series-12/snapshot-12-20-0.jpg",
                 "timestamp": 20,
                 "position": {
-                    "x": 0.0,
-                    "y": -0.5
+                    "x": 770.0,
+                    "y": 495.0
                 },
                 "size": {
-                    "width": 268.0,
-                    "height": 361.0
+                    "width": 120.0,
+                    "height": 120.0
                 }
             },
             {
                 "image": "data/images/series-12/snapshot-12-4-0.jpg",
                 "timestamp": 4,
                 "position": {
-                    "x": 0.0,
-                    "y": -0.5
+                    "x": 770.0,
+                    "y": 495.0
                 },
                 "size": {
-                    "width": 268.0,
-                    "height": 361.0
+                    "width": 120.0,
+                    "height": 120.0
                 }
             },
             {
                 "image": "data/images/series-12/snapshot-12-6-0.jpg",
                 "timestamp": 6,
                 "position": {
-                    "x": 0.0,
-                    "y": -0.5
+                    "x": 770.0,
+                    "y": 495.0
                 },
                 "size": {
-                    "width": 268.0,
-                    "height": 361.0
+                    "width": 120.0,
+                    "height": 120.0
                 }
             },
             {
                 "image": "data/images/series-12/snapshot-12-8-0.jpg",
                 "timestamp": 8,
                 "position": {
-                    "x": 0.0,
-                    "y": -0.5
+                    "x": 770.0,
+                    "y": 495.0
                 },
                 "size": {
-                    "width": 268.0,
-                    "height": 361.0
+                    "width": 120.0,
+                    "height": 120.0
                 }
             }
         ]
@@ -494,8 +494,8 @@
                 "image": "data/images/series-13/snapshot-13-1-0.jpg",
                 "timestamp": 1,
                 "position": {
-                    "x": 262.0,
-                    "y": -165.0
+                    "x": 802.0,
+                    "y": 375.0
                 },
                 "size": {
                     "width": 120.0,
@@ -506,8 +506,8 @@
                 "image": "data/images/series-13/snapshot-13-13-0.jpg",
                 "timestamp": 13,
                 "position": {
-                    "x": 262.0,
-                    "y": -165.0
+                    "x": 802.0,
+                    "y": 375.0
                 },
                 "size": {
                     "width": 120.0,
@@ -518,8 +518,8 @@
                 "image": "data/images/series-13/snapshot-13-15-0.jpg",
                 "timestamp": 15,
                 "position": {
-                    "x": 220.0,
-                    "y": 357.0
+                    "x": 802.0,
+                    "y": 375.0
                 },
                 "size": {
                     "width": 120.0,
@@ -530,8 +530,8 @@
                 "image": "data/images/series-13/snapshot-13-17-0.jpg",
                 "timestamp": 17,
                 "position": {
-                    "x": 220.0,
-                    "y": 357.0
+                    "x": 802.0,
+                    "y": 375.0
                 },
                 "size": {
                     "width": 120.0,
@@ -542,8 +542,8 @@
                 "image": "data/images/series-13/snapshot-13-18-0.jpg",
                 "timestamp": 18,
                 "position": {
-                    "x": 220.0,
-                    "y": 357.0
+                    "x": 802.0,
+                    "y": 375.0
                 },
                 "size": {
                     "width": 120.0,
@@ -554,8 +554,8 @@
                 "image": "data/images/series-13/snapshot-13-21-0.jpg",
                 "timestamp": 21,
                 "position": {
-                    "x": 220.0,
-                    "y": 357.0
+                    "x": 802.0,
+                    "y": 375.0
                 },
                 "size": {
                     "width": 120.0,
@@ -566,8 +566,8 @@
                 "image": "data/images/series-13/snapshot-13-23-0.jpg",
                 "timestamp": 23,
                 "position": {
-                    "x": 220.0,
-                    "y": 357.0
+                    "x": 802.0,
+                    "y": 375.0
                 },
                 "size": {
                     "width": 120.0,
@@ -578,8 +578,8 @@
                 "image": "data/images/series-13/snapshot-13-4-0.jpg",
                 "timestamp": 4,
                 "position": {
-                    "x": 220.0,
-                    "y": 357.0
+                    "x": 802.0,
+                    "y": 375.0
                 },
                 "size": {
                     "width": 120.0,
@@ -590,8 +590,8 @@
                 "image": "data/images/series-13/snapshot-13-7-0.jpg",
                 "timestamp": 7,
                 "position": {
-                    "x": 220.0,
-                    "y": 357.0
+                    "x": 802.0,
+                    "y": 375.0
                 },
                 "size": {
                     "width": 120.0,
@@ -602,8 +602,8 @@
                 "image": "data/images/series-13/snapshot-13-8-0.jpg",
                 "timestamp": 8,
                 "position": {
-                    "x": 220.0,
-                    "y": 357.0
+                    "x": 802.0,
+                    "y": 375.0
                 },
                 "size": {
                     "width": 120.0,
@@ -619,8 +619,8 @@
                 "image": "data/images/series-14/snapshot-14-1-0.jpg",
                 "timestamp": 1,
                 "position": {
-                    "x": 414.0,
-                    "y": -165.0
+                    "x": 1134.0,
+                    "y": 555.0
                 },
                 "size": {
                     "width": 120.0,
@@ -631,8 +631,8 @@
                 "image": "data/images/series-14/snapshot-14-11-0.jpg",
                 "timestamp": 11,
                 "position": {
-                    "x": 414.0,
-                    "y": -165.0
+                    "x": 1134.0,
+                    "y": 555.0
                 },
                 "size": {
                     "width": 120.0,
@@ -643,8 +643,8 @@
                 "image": "data/images/series-14/snapshot-14-13-0.jpg",
                 "timestamp": 13,
                 "position": {
-                    "x": 414.0,
-                    "y": -165.0
+                    "x": 1134.0,
+                    "y": 555.0
                 },
                 "size": {
                     "width": 120.0,
@@ -655,8 +655,8 @@
                 "image": "data/images/series-14/snapshot-14-14-0.jpg",
                 "timestamp": 14,
                 "position": {
-                    "x": 414.0,
-                    "y": -165.0
+                    "x": 1134.0,
+                    "y": 555.0
                 },
                 "size": {
                     "width": 120.0,
@@ -667,8 +667,8 @@
                 "image": "data/images/series-14/snapshot-14-15-0.jpg",
                 "timestamp": 15,
                 "position": {
-                    "x": 372.0,
-                    "y": 357.0
+                    "x": 1134.0,
+                    "y": 555.0
                 },
                 "size": {
                     "width": 120.0,
@@ -679,8 +679,8 @@
                 "image": "data/images/series-14/snapshot-14-17-0.jpg",
                 "timestamp": 17,
                 "position": {
-                    "x": 372.0,
-                    "y": 357.0
+                    "x": 1134.0,
+                    "y": 555.0
                 },
                 "size": {
                     "width": 120.0,
@@ -691,8 +691,8 @@
                 "image": "data/images/series-14/snapshot-14-18-0.jpg",
                 "timestamp": 18,
                 "position": {
-                    "x": 372.0,
-                    "y": 357.0
+                    "x": 1134.0,
+                    "y": 555.0
                 },
                 "size": {
                     "width": 120.0,
@@ -703,8 +703,8 @@
                 "image": "data/images/series-14/snapshot-14-19-0.jpg",
                 "timestamp": 19,
                 "position": {
-                    "x": 372.0,
-                    "y": 357.0
+                    "x": 1134.0,
+                    "y": 555.0
                 },
                 "size": {
                     "width": 120.0,
@@ -715,60 +715,60 @@
                 "image": "data/images/series-14/snapshot-14-20-0.jpg",
                 "timestamp": 20,
                 "position": {
-                    "x": 0.0,
-                    "y": -0.5
+                    "x": 1134.0,
+                    "y": 555.0
                 },
                 "size": {
-                    "width": 392.0,
-                    "height": 297.0
+                    "width": 120.0,
+                    "height": 120.0
                 }
             },
             {
                 "image": "data/images/series-14/snapshot-14-21-0.jpg",
                 "timestamp": 21,
                 "position": {
-                    "x": 0.0,
-                    "y": -0.5
+                    "x": 1134.0,
+                    "y": 555.0
                 },
                 "size": {
-                    "width": 392.0,
-                    "height": 297.0
+                    "width": 120.0,
+                    "height": 120.0
                 }
             },
             {
                 "image": "data/images/series-14/snapshot-14-22-0.jpg",
                 "timestamp": 22,
                 "position": {
-                    "x": 0.0,
-                    "y": -0.5
+                    "x": 1134.0,
+                    "y": 555.0
                 },
                 "size": {
-                    "width": 392.0,
-                    "height": 297.0
+                    "width": 120.0,
+                    "height": 120.0
                 }
             },
             {
                 "image": "data/images/series-14/snapshot-14-4-0.jpg",
                 "timestamp": 4,
                 "position": {
-                    "x": 0.0,
-                    "y": -0.5
+                    "x": 1134.0,
+                    "y": 555.0
                 },
                 "size": {
-                    "width": 392.0,
-                    "height": 297.0
+                    "width": 120.0,
+                    "height": 120.0
                 }
             },
             {
                 "image": "data/images/series-14/snapshot-14-8-0.jpg",
                 "timestamp": 8,
                 "position": {
-                    "x": 0.0,
-                    "y": -0.5
+                    "x": 1134.0,
+                    "y": 555.0
                 },
                 "size": {
-                    "width": 392.0,
-                    "height": 297.0
+                    "width": 120.0,
+                    "height": 120.0
                 }
             }
         ]
@@ -780,8 +780,8 @@
                 "image": "data/images/series-2/snapshot-2-1-0.jpg",
                 "timestamp": 1,
                 "position": {
-                    "x": -346.0,
-                    "y": -314.0
+                    "x": 134.0,
+                    "y": 166.0
                 },
                 "size": {
                     "width": 120.0,
@@ -792,8 +792,8 @@
                 "image": "data/images/series-2/snapshot-2-11-0.jpg",
                 "timestamp": 11,
                 "position": {
-                    "x": -346.0,
-                    "y": -314.0
+                    "x": 134.0,
+                    "y": 166.0
                 },
                 "size": {
                     "width": 120.0,
@@ -804,8 +804,8 @@
                 "image": "data/images/series-2/snapshot-2-13-0.jpg",
                 "timestamp": 13,
                 "position": {
-                    "x": -346.0,
-                    "y": -314.0
+                    "x": 134.0,
+                    "y": 166.0
                 },
                 "size": {
                     "width": 120.0,
@@ -816,8 +816,8 @@
                 "image": "data/images/series-2/snapshot-2-14-0.jpg",
                 "timestamp": 14,
                 "position": {
-                    "x": -346.0,
-                    "y": -314.0
+                    "x": 134.0,
+                    "y": 166.0
                 },
                 "size": {
                     "width": 120.0,
@@ -828,8 +828,8 @@
                 "image": "data/images/series-2/snapshot-2-15-0.jpg",
                 "timestamp": 15,
                 "position": {
-                    "x": -388.0,
-                    "y": 208.0
+                    "x": 134.0,
+                    "y": 166.0
                 },
                 "size": {
                     "width": 120.0,
@@ -840,8 +840,8 @@
                 "image": "data/images/series-2/snapshot-2-17-0.jpg",
                 "timestamp": 17,
                 "position": {
-                    "x": -388.0,
-                    "y": 208.0
+                    "x": 134.0,
+                    "y": 166.0
                 },
                 "size": {
                     "width": 120.0,
@@ -852,8 +852,8 @@
                 "image": "data/images/series-2/snapshot-2-18-0.jpg",
                 "timestamp": 18,
                 "position": {
-                    "x": -388.0,
-                    "y": 208.0
+                    "x": 134.0,
+                    "y": 166.0
                 },
                 "size": {
                     "width": 120.0,
@@ -864,8 +864,8 @@
                 "image": "data/images/series-2/snapshot-2-4-0.jpg",
                 "timestamp": 4,
                 "position": {
-                    "x": -388.0,
-                    "y": 208.0
+                    "x": 134.0,
+                    "y": 166.0
                 },
                 "size": {
                     "width": 120.0,
@@ -876,8 +876,8 @@
                 "image": "data/images/series-2/snapshot-2-9-0.jpg",
                 "timestamp": 9,
                 "position": {
-                    "x": -388.0,
-                    "y": 208.0
+                    "x": 134.0,
+                    "y": 166.0
                 },
                 "size": {
                     "width": 120.0,
@@ -893,8 +893,8 @@
                 "image": "data/images/series-3/snapshot-3-1-0.jpg",
                 "timestamp": 1,
                 "position": {
-                    "x": -194.0,
-                    "y": -314.0
+                    "x": 166.0,
+                    "y": 46.0
                 },
                 "size": {
                     "width": 120.0,
@@ -905,8 +905,8 @@
                 "image": "data/images/series-3/snapshot-3-11-0.jpg",
                 "timestamp": 11,
                 "position": {
-                    "x": -194.0,
-                    "y": -314.0
+                    "x": 166.0,
+                    "y": 46.0
                 },
                 "size": {
                     "width": 120.0,
@@ -917,8 +917,8 @@
                 "image": "data/images/series-3/snapshot-3-13-0.jpg",
                 "timestamp": 13,
                 "position": {
-                    "x": -194.0,
-                    "y": -314.0
+                    "x": 166.0,
+                    "y": 46.0
                 },
                 "size": {
                     "width": 120.0,
@@ -929,8 +929,8 @@
                 "image": "data/images/series-3/snapshot-3-15-0.jpg",
                 "timestamp": 15,
                 "position": {
-                    "x": -236.0,
-                    "y": 208.0
+                    "x": 166.0,
+                    "y": 46.0
                 },
                 "size": {
                     "width": 120.0,
@@ -941,8 +941,8 @@
                 "image": "data/images/series-3/snapshot-3-17-0.jpg",
                 "timestamp": 17,
                 "position": {
-                    "x": -236.0,
-                    "y": 208.0
+                    "x": 166.0,
+                    "y": 46.0
                 },
                 "size": {
                     "width": 120.0,
@@ -953,8 +953,8 @@
                 "image": "data/images/series-3/snapshot-3-4-0.jpg",
                 "timestamp": 4,
                 "position": {
-                    "x": -236.0,
-                    "y": 208.0
+                    "x": 166.0,
+                    "y": 46.0
                 },
                 "size": {
                     "width": 120.0,
@@ -965,8 +965,8 @@
                 "image": "data/images/series-3/snapshot-3-8-0.jpg",
                 "timestamp": 8,
                 "position": {
-                    "x": -236.0,
-                    "y": 208.0
+                    "x": 166.0,
+                    "y": 46.0
                 },
                 "size": {
                     "width": 120.0,
@@ -982,8 +982,8 @@
                 "image": "data/images/series-4/snapshot-4-1-0.jpg",
                 "timestamp": 1,
                 "position": {
-                    "x": -42.0,
-                    "y": -314.0
+                    "x": 438.0,
+                    "y": 166.0
                 },
                 "size": {
                     "width": 120.0,
@@ -994,8 +994,8 @@
                 "image": "data/images/series-4/snapshot-4-13-0.jpg",
                 "timestamp": 13,
                 "position": {
-                    "x": -42.0,
-                    "y": -314.0
+                    "x": 438.0,
+                    "y": 166.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1006,8 +1006,8 @@
                 "image": "data/images/series-4/snapshot-4-14-0.jpg",
                 "timestamp": 14,
                 "position": {
-                    "x": -42.0,
-                    "y": -314.0
+                    "x": 438.0,
+                    "y": 166.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1018,8 +1018,8 @@
                 "image": "data/images/series-4/snapshot-4-15-0.jpg",
                 "timestamp": 15,
                 "position": {
-                    "x": -84.0,
-                    "y": 208.0
+                    "x": 438.0,
+                    "y": 166.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1030,8 +1030,8 @@
                 "image": "data/images/series-4/snapshot-4-17-0.jpg",
                 "timestamp": 17,
                 "position": {
-                    "x": -84.0,
-                    "y": 208.0
+                    "x": 438.0,
+                    "y": 166.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1042,8 +1042,8 @@
                 "image": "data/images/series-4/snapshot-4-18-0.jpg",
                 "timestamp": 18,
                 "position": {
-                    "x": -84.0,
-                    "y": 208.0
+                    "x": 438.0,
+                    "y": 166.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1054,8 +1054,8 @@
                 "image": "data/images/series-4/snapshot-4-21-0.jpg",
                 "timestamp": 21,
                 "position": {
-                    "x": -84.0,
-                    "y": 208.0
+                    "x": 438.0,
+                    "y": 166.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1066,8 +1066,8 @@
                 "image": "data/images/series-4/snapshot-4-4-0.jpg",
                 "timestamp": 4,
                 "position": {
-                    "x": -84.0,
-                    "y": 208.0
+                    "x": 438.0,
+                    "y": 166.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1078,8 +1078,8 @@
                 "image": "data/images/series-4/snapshot-4-9-0.jpg",
                 "timestamp": 9,
                 "position": {
-                    "x": -84.0,
-                    "y": 208.0
+                    "x": 438.0,
+                    "y": 166.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1095,8 +1095,8 @@
                 "image": "data/images/series-5/snapshot-5-1-0.jpg",
                 "timestamp": 1,
                 "position": {
-                    "x": 110.0,
-                    "y": -314.0
+                    "x": 890.0,
+                    "y": 466.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1107,8 +1107,8 @@
                 "image": "data/images/series-5/snapshot-5-11-0.jpg",
                 "timestamp": 11,
                 "position": {
-                    "x": 110.0,
-                    "y": -314.0
+                    "x": 890.0,
+                    "y": 466.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1119,8 +1119,8 @@
                 "image": "data/images/series-5/snapshot-5-13-0.jpg",
                 "timestamp": 13,
                 "position": {
-                    "x": 110.0,
-                    "y": -314.0
+                    "x": 890.0,
+                    "y": 466.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1131,8 +1131,8 @@
                 "image": "data/images/series-5/snapshot-5-14-0.jpg",
                 "timestamp": 14,
                 "position": {
-                    "x": 110.0,
-                    "y": -314.0
+                    "x": 890.0,
+                    "y": 466.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1143,8 +1143,8 @@
                 "image": "data/images/series-5/snapshot-5-15-0.jpg",
                 "timestamp": 15,
                 "position": {
-                    "x": 68.0,
-                    "y": 208.0
+                    "x": 890.0,
+                    "y": 466.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1155,8 +1155,8 @@
                 "image": "data/images/series-5/snapshot-5-17-0.jpg",
                 "timestamp": 17,
                 "position": {
-                    "x": 68.0,
-                    "y": 208.0
+                    "x": 890.0,
+                    "y": 466.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1167,8 +1167,8 @@
                 "image": "data/images/series-5/snapshot-5-19-0.jpg",
                 "timestamp": 19,
                 "position": {
-                    "x": 68.0,
-                    "y": 208.0
+                    "x": 890.0,
+                    "y": 466.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1179,84 +1179,84 @@
                 "image": "data/images/series-5/snapshot-5-20-0.jpg",
                 "timestamp": 20,
                 "position": {
-                    "x": -148.0,
-                    "y": -281.5
+                    "x": 890.0,
+                    "y": 466.0
                 },
                 "size": {
-                    "width": 184.0,
-                    "height": 113.0
+                    "width": 120.0,
+                    "height": 120.0
                 }
             },
             {
                 "image": "data/images/series-5/snapshot-5-21-0.jpg",
                 "timestamp": 21,
                 "position": {
-                    "x": -148.0,
-                    "y": -281.5
+                    "x": 890.0,
+                    "y": 466.0
                 },
                 "size": {
-                    "width": 184.0,
-                    "height": 113.0
+                    "width": 120.0,
+                    "height": 120.0
                 }
             },
             {
                 "image": "data/images/series-5/snapshot-5-22-0.jpg",
                 "timestamp": 22,
                 "position": {
-                    "x": -148.0,
-                    "y": -281.5
+                    "x": 890.0,
+                    "y": 466.0
                 },
                 "size": {
-                    "width": 184.0,
-                    "height": 113.0
+                    "width": 120.0,
+                    "height": 120.0
                 }
             },
             {
                 "image": "data/images/series-5/snapshot-5-23-0.jpg",
                 "timestamp": 23,
                 "position": {
-                    "x": -148.0,
-                    "y": -281.5
+                    "x": 890.0,
+                    "y": 466.0
                 },
                 "size": {
-                    "width": 184.0,
-                    "height": 113.0
+                    "width": 120.0,
+                    "height": 120.0
                 }
             },
             {
                 "image": "data/images/series-5/snapshot-5-24-0.jpg",
                 "timestamp": 24,
                 "position": {
-                    "x": -148.0,
-                    "y": -281.5
+                    "x": 890.0,
+                    "y": 466.0
                 },
                 "size": {
-                    "width": 184.0,
-                    "height": 113.0
+                    "width": 120.0,
+                    "height": 120.0
                 }
             },
             {
                 "image": "data/images/series-5/snapshot-5-4-0.jpg",
                 "timestamp": 4,
                 "position": {
-                    "x": -148.0,
-                    "y": -281.5
+                    "x": 890.0,
+                    "y": 466.0
                 },
                 "size": {
-                    "width": 184.0,
-                    "height": 113.0
+                    "width": 120.0,
+                    "height": 120.0
                 }
             },
             {
                 "image": "data/images/series-5/snapshot-5-9-0.jpg",
                 "timestamp": 9,
                 "position": {
-                    "x": -148.0,
-                    "y": -281.5
+                    "x": 890.0,
+                    "y": 466.0
                 },
                 "size": {
-                    "width": 184.0,
-                    "height": 113.0
+                    "width": 120.0,
+                    "height": 120.0
                 }
             }
         ]
@@ -1268,8 +1268,8 @@
                 "image": "data/images/series-6/snapshot-6-1-0.jpg",
                 "timestamp": 1,
                 "position": {
-                    "x": 262.0,
-                    "y": -314.0
+                    "x": 1342.0,
+                    "y": 766.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1280,8 +1280,8 @@
                 "image": "data/images/series-6/snapshot-6-11-0.jpg",
                 "timestamp": 11,
                 "position": {
-                    "x": 262.0,
-                    "y": -314.0
+                    "x": 1342.0,
+                    "y": 766.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1292,8 +1292,8 @@
                 "image": "data/images/series-6/snapshot-6-13-0.jpg",
                 "timestamp": 13,
                 "position": {
-                    "x": 262.0,
-                    "y": -314.0
+                    "x": 1342.0,
+                    "y": 766.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1304,8 +1304,8 @@
                 "image": "data/images/series-6/snapshot-6-15-0.jpg",
                 "timestamp": 15,
                 "position": {
-                    "x": 220.0,
-                    "y": 208.0
+                    "x": 1342.0,
+                    "y": 766.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1316,8 +1316,8 @@
                 "image": "data/images/series-6/snapshot-6-17-0.jpg",
                 "timestamp": 17,
                 "position": {
-                    "x": 220.0,
-                    "y": 208.0
+                    "x": 1342.0,
+                    "y": 766.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1328,8 +1328,8 @@
                 "image": "data/images/series-6/snapshot-6-18-0.jpg",
                 "timestamp": 18,
                 "position": {
-                    "x": 220.0,
-                    "y": 208.0
+                    "x": 1342.0,
+                    "y": 766.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1340,8 +1340,8 @@
                 "image": "data/images/series-6/snapshot-6-19-0.jpg",
                 "timestamp": 19,
                 "position": {
-                    "x": 220.0,
-                    "y": 208.0
+                    "x": 1342.0,
+                    "y": 766.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1352,144 +1352,144 @@
                 "image": "data/images/series-6/snapshot-6-20-0.jpg",
                 "timestamp": 20,
                 "position": {
-                    "x": 0.5,
-                    "y": 0.0
+                    "x": 1342.0,
+                    "y": 766.0
                 },
                 "size": {
-                    "width": 113.0,
-                    "height": 178.0
+                    "width": 120.0,
+                    "height": 120.0
                 }
             },
             {
                 "image": "data/images/series-6/snapshot-6-21-0.jpg",
                 "timestamp": 21,
                 "position": {
-                    "x": 0.5,
-                    "y": 0.0
+                    "x": 1342.0,
+                    "y": 766.0
                 },
                 "size": {
-                    "width": 113.0,
-                    "height": 178.0
+                    "width": 120.0,
+                    "height": 120.0
                 }
             },
             {
                 "image": "data/images/series-6/snapshot-6-22-0.jpg",
                 "timestamp": 22,
                 "position": {
-                    "x": 0.5,
-                    "y": 0.0
+                    "x": 1342.0,
+                    "y": 766.0
                 },
                 "size": {
-                    "width": 113.0,
-                    "height": 178.0
+                    "width": 120.0,
+                    "height": 120.0
                 }
             },
             {
                 "image": "data/images/series-6/snapshot-6-23-0.jpg",
                 "timestamp": 23,
                 "position": {
-                    "x": 0.5,
-                    "y": 0.0
+                    "x": 1342.0,
+                    "y": 766.0
                 },
                 "size": {
-                    "width": 113.0,
-                    "height": 178.0
+                    "width": 120.0,
+                    "height": 120.0
                 }
             },
             {
                 "image": "data/images/series-6/snapshot-6-24-0.jpg",
                 "timestamp": 24,
                 "position": {
-                    "x": 0.5,
-                    "y": 0.0
+                    "x": 1342.0,
+                    "y": 766.0
                 },
                 "size": {
-                    "width": 113.0,
-                    "height": 178.0
+                    "width": 120.0,
+                    "height": 120.0
                 }
             },
             {
                 "image": "data/images/series-6/snapshot-6-25-0.jpg",
                 "timestamp": 25,
                 "position": {
-                    "x": 0.5,
-                    "y": 0.0
+                    "x": 1342.0,
+                    "y": 766.0
                 },
                 "size": {
-                    "width": 113.0,
-                    "height": 178.0
+                    "width": 120.0,
+                    "height": 120.0
                 }
             },
             {
                 "image": "data/images/series-6/snapshot-6-26-0.jpg",
                 "timestamp": 26,
                 "position": {
-                    "x": 0.5,
-                    "y": 0.0
+                    "x": 1342.0,
+                    "y": 766.0
                 },
                 "size": {
-                    "width": 113.0,
-                    "height": 178.0
+                    "width": 120.0,
+                    "height": 120.0
                 }
             },
             {
                 "image": "data/images/series-6/snapshot-6-27-0.jpg",
                 "timestamp": 27,
                 "position": {
-                    "x": 0.5,
-                    "y": 0.0
+                    "x": 1342.0,
+                    "y": 766.0
                 },
                 "size": {
-                    "width": 113.0,
-                    "height": 178.0
+                    "width": 120.0,
+                    "height": 120.0
                 }
             },
             {
                 "image": "data/images/series-6/snapshot-6-28-0.jpg",
                 "timestamp": 28,
                 "position": {
-                    "x": 0.5,
-                    "y": 0.0
+                    "x": 1342.0,
+                    "y": 766.0
                 },
                 "size": {
-                    "width": 113.0,
-                    "height": 178.0
+                    "width": 120.0,
+                    "height": 120.0
                 }
             },
             {
                 "image": "data/images/series-6/snapshot-6-4-0.jpg",
                 "timestamp": 4,
                 "position": {
-                    "x": 0.5,
-                    "y": 0.0
+                    "x": 1342.0,
+                    "y": 766.0
                 },
                 "size": {
-                    "width": 113.0,
-                    "height": 178.0
+                    "width": 120.0,
+                    "height": 120.0
                 }
             },
             {
                 "image": "data/images/series-6/snapshot-6-8-0.jpg",
                 "timestamp": 8,
                 "position": {
-                    "x": 0.5,
-                    "y": 0.0
+                    "x": 1342.0,
+                    "y": 766.0
                 },
                 "size": {
-                    "width": 113.0,
-                    "height": 178.0
+                    "width": 120.0,
+                    "height": 120.0
                 }
             },
             {
                 "image": "data/images/series-6/snapshot-6-9-0.jpg",
                 "timestamp": 9,
                 "position": {
-                    "x": 0.5,
-                    "y": 0.0
+                    "x": 1342.0,
+                    "y": 766.0
                 },
                 "size": {
-                    "width": 113.0,
-                    "height": 178.0
+                    "width": 120.0,
+                    "height": 120.0
                 }
             }
         ]
@@ -1501,8 +1501,8 @@
                 "image": "data/images/series-7/snapshot-7-1-0.jpg",
                 "timestamp": 1,
                 "position": {
-                    "x": 414.0,
-                    "y": -314.0
+                    "x": 1014.0,
+                    "y": 286.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1513,8 +1513,8 @@
                 "image": "data/images/series-7/snapshot-7-11-0.jpg",
                 "timestamp": 11,
                 "position": {
-                    "x": 414.0,
-                    "y": -314.0
+                    "x": 1014.0,
+                    "y": 286.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1525,8 +1525,8 @@
                 "image": "data/images/series-7/snapshot-7-13-0.jpg",
                 "timestamp": 13,
                 "position": {
-                    "x": 414.0,
-                    "y": -314.0
+                    "x": 1014.0,
+                    "y": 286.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1537,8 +1537,8 @@
                 "image": "data/images/series-7/snapshot-7-15-0.jpg",
                 "timestamp": 15,
                 "position": {
-                    "x": 372.0,
-                    "y": 208.0
+                    "x": 1014.0,
+                    "y": 286.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1549,8 +1549,8 @@
                 "image": "data/images/series-7/snapshot-7-17-0.jpg",
                 "timestamp": 17,
                 "position": {
-                    "x": 372.0,
-                    "y": 208.0
+                    "x": 1014.0,
+                    "y": 286.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1561,8 +1561,8 @@
                 "image": "data/images/series-7/snapshot-7-18-0.jpg",
                 "timestamp": 18,
                 "position": {
-                    "x": 372.0,
-                    "y": 208.0
+                    "x": 1014.0,
+                    "y": 286.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1573,8 +1573,8 @@
                 "image": "data/images/series-7/snapshot-7-19-0.jpg",
                 "timestamp": 19,
                 "position": {
-                    "x": 372.0,
-                    "y": 208.0
+                    "x": 1014.0,
+                    "y": 286.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1585,8 +1585,8 @@
                 "image": "data/images/series-7/snapshot-7-4-0.jpg",
                 "timestamp": 4,
                 "position": {
-                    "x": 372.0,
-                    "y": 208.0
+                    "x": 1014.0,
+                    "y": 286.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1597,8 +1597,8 @@
                 "image": "data/images/series-7/snapshot-7-7-0.jpg",
                 "timestamp": 7,
                 "position": {
-                    "x": 372.0,
-                    "y": 208.0
+                    "x": 1014.0,
+                    "y": 286.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1609,8 +1609,8 @@
                 "image": "data/images/series-7/snapshot-7-8-0.jpg",
                 "timestamp": 8,
                 "position": {
-                    "x": 372.0,
-                    "y": 208.0
+                    "x": 1014.0,
+                    "y": 286.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1621,8 +1621,8 @@
                 "image": "data/images/series-7/snapshot-7-9-0.jpg",
                 "timestamp": 9,
                 "position": {
-                    "x": 372.0,
-                    "y": 208.0
+                    "x": 1014.0,
+                    "y": 286.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1638,8 +1638,8 @@
                 "image": "data/images/series-8/snapshot-8-1-0.jpg",
                 "timestamp": 1,
                 "position": {
-                    "x": -498.0,
-                    "y": -165.0
+                    "x": 342.0,
+                    "y": 675.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1650,8 +1650,8 @@
                 "image": "data/images/series-8/snapshot-8-11-0.jpg",
                 "timestamp": 11,
                 "position": {
-                    "x": -498.0,
-                    "y": -165.0
+                    "x": 342.0,
+                    "y": 675.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1662,8 +1662,8 @@
                 "image": "data/images/series-8/snapshot-8-13-0.jpg",
                 "timestamp": 13,
                 "position": {
-                    "x": -498.0,
-                    "y": -165.0
+                    "x": 342.0,
+                    "y": 675.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1674,8 +1674,8 @@
                 "image": "data/images/series-8/snapshot-8-14-0.jpg",
                 "timestamp": 14,
                 "position": {
-                    "x": -498.0,
-                    "y": -165.0
+                    "x": 342.0,
+                    "y": 675.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1686,8 +1686,8 @@
                 "image": "data/images/series-8/snapshot-8-15-0.jpg",
                 "timestamp": 15,
                 "position": {
-                    "x": -540.0,
-                    "y": 357.0
+                    "x": 342.0,
+                    "y": 675.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1698,8 +1698,8 @@
                 "image": "data/images/series-8/snapshot-8-17-0.jpg",
                 "timestamp": 17,
                 "position": {
-                    "x": -540.0,
-                    "y": 357.0
+                    "x": 342.0,
+                    "y": 675.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1710,8 +1710,8 @@
                 "image": "data/images/series-8/snapshot-8-18-0.jpg",
                 "timestamp": 18,
                 "position": {
-                    "x": -540.0,
-                    "y": 357.0
+                    "x": 342.0,
+                    "y": 675.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1722,8 +1722,8 @@
                 "image": "data/images/series-8/snapshot-8-19-0.jpg",
                 "timestamp": 19,
                 "position": {
-                    "x": -540.0,
-                    "y": 357.0
+                    "x": 342.0,
+                    "y": 675.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1734,8 +1734,8 @@
                 "image": "data/images/series-8/snapshot-8-21-0.jpg",
                 "timestamp": 21,
                 "position": {
-                    "x": -540.0,
-                    "y": 357.0
+                    "x": 342.0,
+                    "y": 675.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1746,8 +1746,8 @@
                 "image": "data/images/series-8/snapshot-8-22-0.jpg",
                 "timestamp": 22,
                 "position": {
-                    "x": -540.0,
-                    "y": 357.0
+                    "x": 342.0,
+                    "y": 675.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1758,8 +1758,8 @@
                 "image": "data/images/series-8/snapshot-8-23-0.jpg",
                 "timestamp": 23,
                 "position": {
-                    "x": -540.0,
-                    "y": 357.0
+                    "x": 342.0,
+                    "y": 675.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1770,8 +1770,8 @@
                 "image": "data/images/series-8/snapshot-8-24-0.jpg",
                 "timestamp": 24,
                 "position": {
-                    "x": -540.0,
-                    "y": 357.0
+                    "x": 342.0,
+                    "y": 675.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1782,8 +1782,8 @@
                 "image": "data/images/series-8/snapshot-8-25-0.jpg",
                 "timestamp": 25,
                 "position": {
-                    "x": -540.0,
-                    "y": 357.0
+                    "x": 342.0,
+                    "y": 675.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1794,8 +1794,8 @@
                 "image": "data/images/series-8/snapshot-8-4-0.jpg",
                 "timestamp": 4,
                 "position": {
-                    "x": -540.0,
-                    "y": 357.0
+                    "x": 342.0,
+                    "y": 675.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1806,8 +1806,8 @@
                 "image": "data/images/series-8/snapshot-8-8-0.jpg",
                 "timestamp": 8,
                 "position": {
-                    "x": -540.0,
-                    "y": 357.0
+                    "x": 342.0,
+                    "y": 675.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1823,8 +1823,8 @@
                 "image": "data/images/series-9/snapshot-9-1-0.jpg",
                 "timestamp": 1,
                 "position": {
-                    "x": -346.0,
-                    "y": -165.0
+                    "x": 554.0,
+                    "y": 735.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1835,8 +1835,8 @@
                 "image": "data/images/series-9/snapshot-9-11-0.jpg",
                 "timestamp": 11,
                 "position": {
-                    "x": -346.0,
-                    "y": -165.0
+                    "x": 554.0,
+                    "y": 735.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1847,8 +1847,8 @@
                 "image": "data/images/series-9/snapshot-9-13-0.jpg",
                 "timestamp": 13,
                 "position": {
-                    "x": -346.0,
-                    "y": -165.0
+                    "x": 554.0,
+                    "y": 735.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1859,8 +1859,8 @@
                 "image": "data/images/series-9/snapshot-9-14-0.jpg",
                 "timestamp": 14,
                 "position": {
-                    "x": -346.0,
-                    "y": -165.0
+                    "x": 554.0,
+                    "y": 735.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1871,8 +1871,8 @@
                 "image": "data/images/series-9/snapshot-9-15-0.jpg",
                 "timestamp": 15,
                 "position": {
-                    "x": -388.0,
-                    "y": 357.0
+                    "x": 554.0,
+                    "y": 735.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1883,8 +1883,8 @@
                 "image": "data/images/series-9/snapshot-9-17-0.jpg",
                 "timestamp": 17,
                 "position": {
-                    "x": -388.0,
-                    "y": 357.0
+                    "x": 554.0,
+                    "y": 735.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1895,8 +1895,8 @@
                 "image": "data/images/series-9/snapshot-9-18-0.jpg",
                 "timestamp": 18,
                 "position": {
-                    "x": -388.0,
-                    "y": 357.0
+                    "x": 554.0,
+                    "y": 735.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1907,8 +1907,8 @@
                 "image": "data/images/series-9/snapshot-9-19-0.jpg",
                 "timestamp": 19,
                 "position": {
-                    "x": -388.0,
-                    "y": 357.0
+                    "x": 554.0,
+                    "y": 735.0
                 },
                 "size": {
                     "width": 120.0,
@@ -1919,96 +1919,96 @@
                 "image": "data/images/series-9/snapshot-9-20-0.jpg",
                 "timestamp": 20,
                 "position": {
-                    "x": 0.5,
-                    "y": 0.0
+                    "x": 554.0,
+                    "y": 735.0
                 },
                 "size": {
-                    "width": 179.0,
-                    "height": 114.0
+                    "width": 120.0,
+                    "height": 120.0
                 }
             },
             {
                 "image": "data/images/series-9/snapshot-9-21-0.jpg",
                 "timestamp": 21,
                 "position": {
-                    "x": 0.5,
-                    "y": 0.0
+                    "x": 554.0,
+                    "y": 735.0
                 },
                 "size": {
-                    "width": 179.0,
-                    "height": 114.0
+                    "width": 120.0,
+                    "height": 120.0
                 }
             },
             {
                 "image": "data/images/series-9/snapshot-9-22-0.jpg",
                 "timestamp": 22,
                 "position": {
-                    "x": 0.5,
-                    "y": 0.0
+                    "x": 554.0,
+                    "y": 735.0
                 },
                 "size": {
-                    "width": 179.0,
-                    "height": 114.0
+                    "width": 120.0,
+                    "height": 120.0
                 }
             },
             {
                 "image": "data/images/series-9/snapshot-9-23-0.jpg",
                 "timestamp": 23,
                 "position": {
-                    "x": 0.5,
-                    "y": 0.0
+                    "x": 554.0,
+                    "y": 735.0
                 },
                 "size": {
-                    "width": 179.0,
-                    "height": 114.0
+                    "width": 120.0,
+                    "height": 120.0
                 }
             },
             {
                 "image": "data/images/series-9/snapshot-9-24-0.jpg",
                 "timestamp": 24,
                 "position": {
-                    "x": 0.5,
-                    "y": 0.0
+                    "x": 554.0,
+                    "y": 735.0
                 },
                 "size": {
-                    "width": 179.0,
-                    "height": 114.0
+                    "width": 120.0,
+                    "height": 120.0
                 }
             },
             {
                 "image": "data/images/series-9/snapshot-9-4-0.jpg",
                 "timestamp": 4,
                 "position": {
-                    "x": 0.5,
-                    "y": 0.0
+                    "x": 554.0,
+                    "y": 735.0
                 },
                 "size": {
-                    "width": 179.0,
-                    "height": 114.0
+                    "width": 120.0,
+                    "height": 120.0
                 }
             },
             {
                 "image": "data/images/series-9/snapshot-9-7-0.jpg",
                 "timestamp": 7,
                 "position": {
-                    "x": 0.5,
-                    "y": 0.0
+                    "x": 554.0,
+                    "y": 735.0
                 },
                 "size": {
-                    "width": 179.0,
-                    "height": 114.0
+                    "width": 120.0,
+                    "height": 120.0
                 }
             },
             {
                 "image": "data/images/series-9/snapshot-9-8-0.jpg",
                 "timestamp": 8,
                 "position": {
-                    "x": 0.5,
-                    "y": 0.0
+                    "x": 554.0,
+                    "y": 735.0
                 },
                 "size": {
-                    "width": 179.0,
-                    "height": 114.0
+                    "width": 120.0,
+                    "height": 120.0
                 }
             }
         ]
