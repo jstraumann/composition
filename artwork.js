@@ -14,7 +14,7 @@ class Artwork {
         this.currentRotation = 0.0;
         this.targetRotation = 0.0;
         this.easingTimer = 0;
-        this.easingDuration = 0.2 * 60; // 0.2 seconds in frames
+        this.easingDuration = 2 * 60; // 0.2 seconds in frames
 
         console.log(this.id, this.rotations);
     }
@@ -84,7 +84,7 @@ class Artwork {
             push();
 
             translate(this.currentPosition.x, this.currentPosition.y);            
-            // rotate(this.currentRotation);
+            rotate(this.currentRotation);
             
 
             image(

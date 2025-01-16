@@ -3,14 +3,14 @@
 <rect id="series-0" x="40" y="40" width="1200" height="834" fill="#D9D9D9"/>
 <rect id="series-14" x="284" y="42" width="114" height="117" fill="#9FD40B"/>
 <rect id="series-13" x="398" y="758" width="182" height="116" fill="#7D003E"/>
-<rect id="series-12" x="1060" y="514" width="179" height="113" fill="#006BED"/>
+<rect id="series-12" x="1074" y="502" width="179" height="113" fill="#006BED"/>
 <rect id="series-11" x="972" y="105" width="182" height="113" fill="#4C0C5D"/>
 <rect id="series-10" x="790" y="105" width="182" height="113" fill="#2CA018"/>
 <rect id="series-9" x="284" y="159" width="114" height="182" fill="#BA8BC6"/>
 <rect id="series-8" x="104" y="227" width="180" height="114" fill="#8995E2"/>
 <rect id="series-7" x="104" y="113" width="180" height="114" fill="#9A028D"/>
 <rect id="series-6" x="97" y="608" width="301" height="190" fill="#0D6852"/>
-<rect id="series-5" x="790" y="464" width="284" height="398" fill="#EEF3A0"/>
+<rect id="series-5" x="790" y="900" width="398" height="284" transform="rotate(-90 790 900)" fill="#EEF3A0"/>
 <rect id="series-4" x="40" y="341" width="358" height="267" fill="#AB6DA0"/>
 <rect id="series-3" x="398" y="458" width="392" height="300" fill="#7CA7AE"/>
 <rect id="series-2" x="790" y="502" width="284" height="398" transform="rotate(-90 790 502)" fill="#B2BD12"/>

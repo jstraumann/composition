@@ -1,5 +1,6 @@
 import os
 import json
+import math
 import xml.etree.ElementTree as ET
 from datetime import datetime
 from PIL import Image
@@ -27,6 +28,25 @@ def get_image_sizes(image_path):
         print(f"Error opening image {image_path}: {e}")
         return 120, 120  # Default size in case of error
 
+def rotate_point(x, y, cx, cy, angle_deg):
+    # Convert angle to radians
+    angle_rad = math.radians(angle_deg)
+    
+    # Calculate new coordinates after rotation
+    x_rot = cx + (x - cx) * math.cos(angle_rad) - (y - cy) * math.sin(angle_rad)
+    y_rot = cy + (x - cx) * math.sin(angle_rad) + (y - cy) * math.cos(angle_rad)
+    
+    return x_rot, y_rot
+
+def rectangle_center(x, y, width, height, angle_deg, cx, cy):
+    # Calculate the unrotated center of the rectangle
+    center_x = x + width / 2
+    center_y = y + height / 2
+    
+    # Rotate the center point
+    rotated_center_x, rotated_center_y = rotate_point(center_x, center_y, cx, cy, angle_deg)
+    
+    return rotated_center_x, rotated_center_y
 
 def parse_svg(svg_path):
     try:
@@ -47,12 +67,31 @@ def parse_svg(svg_path):
                 # Parse rotation if present
                 transform = rect.attrib.get('transform', '')
                 rotation = 0  # Default to no rotation
+                cx, cy = x + width / 2, y + height / 2  # Default rotation center
+                
                 if 'rotate' in transform:
                     try:
-                        rotation = float(transform.split('rotate(')[1].split()[0])  # Extract the angle
-                    except (ValueError, IndexError):
+                        # Extract rotation angle and center (cx, cy)
+                        rotate_parts = transform.split('rotate(')[1].split(')')[0].split()
+                        rotation = float(rotate_parts[0])
+                        if len(rotate_parts) > 2:
+                            cx = float(rotate_parts[1])
+                            cy = float(rotate_parts[2])
+                        
+                        # Calculate the center of the rectangle before rotation
+                        center_x = x + width / 2
+                        center_y = y + height / 2
+                        
+                        # Rotate the rectangle's center around (cx, cy)
+                        rotated_center_x, rotated_center_y = rotate_point(center_x, center_y, cx, cy, rotation)
+                        
+                        # Adjust the top-left corner after rotation
+                        x = rotated_center_x - width / 2
+                        y = rotated_center_y - height / 2
+                        
+                    except ValueError:
                         print(f"Error parsing rotation value in transform: {transform}")
-                
+
                 positions_and_sizes[series_id] = {
                     "position": {"x": x, "y": y},
                     "size": {"width": width, "height": height},
@@ -65,6 +104,7 @@ def parse_svg(svg_path):
     except Exception as e:
         print(f"Unexpected error processing SVG {svg_path}: {e}")
         return {}
+
 
 
 def generate_json_from_structure(images_dir, positions_dir):
